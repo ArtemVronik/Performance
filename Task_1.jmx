@@ -29,8 +29,8 @@
             <stringProp name="Argument.value">10</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="RUMP_UP" elementType="Argument">
-            <stringProp name="Argument.name">RUMP_UP</stringProp>
+          <elementProp name="RAMP_UP" elementType="Argument">
+            <stringProp name="Argument.name">RAMP_UP</stringProp>
             <stringProp name="Argument.value">10</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
@@ -65,7 +65,7 @@
         <stringProp name="HTTPSampler.port">${PORT}</stringProp>
         <stringProp name="HTTPSampler.protocol">${PROTOCOL}</stringProp>
         <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-        <stringProp name="HTTPSampler.path">/</stringProp>
+        <stringProp name="HTTPSampler.path"></stringProp>
         <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -78,7 +78,7 @@
           <stringProp name="LoopController.loops">${LOOP}</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">${COUNT_OF_USERS}</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">${RUMP_UP}</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">${RAMP_UP}</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
@@ -97,7 +97,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
-            <stringProp name="HTTPSampler.path">/demo/</stringProp>
+            <stringProp name="HTTPSampler.path"></stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -128,7 +128,7 @@
                 </elementProp>
                 <elementProp name="User-Agent" elementType="Header">
                   <stringProp name="Header.name">User-Agent</stringProp>
-                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT ${RUMP_UP}.0; Win64; x64; rv:69.0) Gecko/20${RUMP_UP}0${RUMP_UP}1 Firefox/69.0</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -152,7 +152,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
-            <stringProp name="HTTPSampler.path">/demo/contact</stringProp>
+            <stringProp name="HTTPSampler.path">/contact</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -183,7 +183,7 @@
                 </elementProp>
                 <elementProp name="User-Agent" elementType="Header">
                   <stringProp name="Header.name">User-Agent</stringProp>
-                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT ${RUMP_UP}.0; Win64; x64; rv:69.0) Gecko/20${RUMP_UP}0${RUMP_UP}1 Firefox/69.0</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
