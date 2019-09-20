@@ -20,7 +20,7 @@
           </elementProp>
           <elementProp name="USERS_COUNT" elementType="Argument">
             <stringProp name="Argument.name">USERS_COUNT</stringProp>
-            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.value">2</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="RAMP_UP" elementType="Argument">
@@ -45,7 +45,7 @@
           </elementProp>
           <elementProp name="POSTS_COUNT" elementType="Argument">
             <stringProp name="Argument.name">POSTS_COUNT</stringProp>
-            <stringProp name="Argument.value">110</stringProp>
+            <stringProp name="Argument.value">100</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="POST_DATA" elementType="Argument">
@@ -497,7 +497,7 @@
                   <collectionProp name="Arguments.arguments">
                     <elementProp name="" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                      <stringProp name="Argument.value">{&quot;Id&quot;:&quot;&quot;,&quot;Title&quot;:&quot;${POST_DATA} ${__Random(50,1000,RANDOM_NUMBER)}&quot;,&quot;Author&quot;:&quot;${USER_NAME}&quot;,&quot;Content&quot;:&quot;&lt;p&gt;${__RandomString(${RANDOM_NUMBER},${POST_DATA},)}&lt;/p&gt;&quot;,&quot;DateCreated&quot;:&quot;${POST_DATE}&quot;,&quot;Slug&quot;:&quot;${POST_DATA}&quot;,&quot;Categories&quot;:[],&quot;Tags&quot;:[],&quot;Comments&quot;:&quot;&quot;,&quot;HasCommentsEnabled&quot;:true,&quot;IsPublished&quot;:false}</stringProp>
+                      <stringProp name="Argument.value">{&quot;Id&quot;:&quot;&quot;,&quot;Title&quot;:&quot;${POST_DATA} ${__Random(50,1000,RANDOM_NUMBER)}&quot;,&quot;Author&quot;:&quot;${USER_NAME}&quot;,&quot;Content&quot;:&quot;&lt;p&gt;${__RandomString(${RANDOM_NUMBER},${POST_DATA},)}&lt;/p&gt;&quot;,&quot;DateCreated&quot;:&quot;${POST_DATE}&quot;,&quot;Slug&quot;:&quot;${POST_DATA}&quot;,&quot;Categories&quot;:[],&quot;Tags&quot;:[],&quot;Comments&quot;:&quot;&quot;,&quot;HasCommentsEnabled&quot;:true,&quot;IsPublished&quot;:true}</stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                     </elementProp>
                   </collectionProp>
@@ -564,7 +564,7 @@
                   <collectionProp name="Arguments.arguments">
                     <elementProp name="" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                      <stringProp name="Argument.value">{&quot;Id&quot;:&quot;&quot;,&quot;Title&quot;:&quot;${POST_DATA} ${__Random(50,1000,RANDOM_NUMBER)}&quot;,&quot;Author&quot;:&quot;${USER_NAME}&quot;,&quot;Content&quot;:&quot;&lt;p&gt;${__RandomString(${RANDOM_NUMBER},${POST_DATA},)}&lt;/p&gt;&quot;,&quot;DateCreated&quot;:&quot;${__RandomDate(yyyy-MM-dd,2019-01-01,2019-09-18,,)} ${__Random(0,2,)}${__Random(0,3,)}:${__Random(0,5,)}${__Random(0,9,)}&quot;,&quot;Slug&quot;:&quot;${POST_DATA}&quot;,&quot;Categories&quot;:[],&quot;Tags&quot;:[],&quot;Comments&quot;:&quot;&quot;,&quot;HasCommentsEnabled&quot;:true,&quot;IsPublished&quot;:false}</stringProp>
+                      <stringProp name="Argument.value">{&quot;Id&quot;:&quot;&quot;,&quot;Title&quot;:&quot;${POST_DATA} ${__Random(50,1000,RANDOM_NUMBER)}&quot;,&quot;Author&quot;:&quot;${USER_NAME}&quot;,&quot;Content&quot;:&quot;&lt;p&gt;${__RandomString(${RANDOM_NUMBER},${POST_DATA},)}&lt;/p&gt;&quot;,&quot;DateCreated&quot;:&quot;${__RandomDate(yyyy-MM-dd,2019-01-01,2019-09-18,,)} ${__Random(0,2,)}${__Random(0,3,)}:${__Random(0,5,)}${__Random(0,9,)}&quot;,&quot;Slug&quot;:&quot;${POST_DATA}&quot;,&quot;Categories&quot;:[],&quot;Tags&quot;:[],&quot;Comments&quot;:&quot;&quot;,&quot;HasCommentsEnabled&quot;:true,&quot;IsPublished&quot;:true}</stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                     </elementProp>
                   </collectionProp>
@@ -659,7 +659,7 @@
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="false">
+      <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -696,7 +696,7 @@
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="false">
+      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -732,6 +732,29 @@
         </objProp>
         <stringProp name="filename"></stringProp>
       </ResultCollector>
+      <hashTree/>
+      <ProxyControl guiclass="ProxyControlGui" testclass="ProxyControl" testname="HTTP(S) Test Script Recorder" enabled="true">
+        <stringProp name="ProxyControlGui.port">8888</stringProp>
+        <collectionProp name="ProxyControlGui.exclude_list">
+          <stringProp name="-2063843150">(?i).*\.(bmp|css|js|gif|ico|jpe?g|png|swf|woff|woff2)</stringProp>
+        </collectionProp>
+        <collectionProp name="ProxyControlGui.include_list"/>
+        <boolProp name="ProxyControlGui.capture_http_headers">true</boolProp>
+        <intProp name="ProxyControlGui.grouping_mode">0</intProp>
+        <boolProp name="ProxyControlGui.add_assertion">false</boolProp>
+        <stringProp name="ProxyControlGui.sampler_type_name"></stringProp>
+        <boolProp name="ProxyControlGui.sampler_redirect_automatically">false</boolProp>
+        <boolProp name="ProxyControlGui.sampler_follow_redirects">true</boolProp>
+        <boolProp name="ProxyControlGui.use_keepalive">true</boolProp>
+        <boolProp name="ProxyControlGui.sampler_download_images">false</boolProp>
+        <intProp name="ProxyControlGui.proxy_http_sampler_naming_mode">0</intProp>
+        <stringProp name="ProxyControlGui.proxy_prefix_http_sampler_name"></stringProp>
+        <stringProp name="ProxyControlGui.proxy_pause_http_sampler"></stringProp>
+        <boolProp name="ProxyControlGui.notify_child_sl_filtered">false</boolProp>
+        <boolProp name="ProxyControlGui.regex_match">false</boolProp>
+        <stringProp name="ProxyControlGui.content_type_include"></stringProp>
+        <stringProp name="ProxyControlGui.content_type_exclude"></stringProp>
+      </ProxyControl>
       <hashTree/>
     </hashTree>
   </hashTree>
