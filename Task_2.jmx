@@ -45,7 +45,7 @@
           </elementProp>
           <elementProp name="POSTS_COUNT" elementType="Argument">
             <stringProp name="Argument.name">POSTS_COUNT</stringProp>
-            <stringProp name="Argument.value">11</stringProp>
+            <stringProp name="Argument.value">101</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="POST_DATA" elementType="Argument">
@@ -208,6 +208,46 @@
               </collectionProp>
             </HeaderManager>
             <hashTree/>
+            <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="LOGIN_BUTTON_VALUE" enabled="true">
+              <stringProp name="HtmlExtractor.refname">LOGIN_BUTTON_VALUE</stringProp>
+              <stringProp name="HtmlExtractor.expr">#LoginButton</stringProp>
+              <stringProp name="HtmlExtractor.attribute">value</stringProp>
+              <stringProp name="HtmlExtractor.default">NOT_FOUND</stringProp>
+              <boolProp name="HtmlExtractor.default_empty_value">false</boolProp>
+              <stringProp name="HtmlExtractor.match_number">0</stringProp>
+              <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
+            </HtmlExtractor>
+            <hashTree/>
+            <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="VIEWSTATE_VALUE" enabled="true">
+              <stringProp name="HtmlExtractor.refname">VIEWSTATE</stringProp>
+              <stringProp name="HtmlExtractor.expr">#__VIEWSTATE</stringProp>
+              <stringProp name="HtmlExtractor.attribute">value</stringProp>
+              <stringProp name="HtmlExtractor.default">NOT_FOUND</stringProp>
+              <boolProp name="HtmlExtractor.default_empty_value">false</boolProp>
+              <stringProp name="HtmlExtractor.match_number">0</stringProp>
+              <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
+            </HtmlExtractor>
+            <hashTree/>
+            <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="VIEWSTATEGENERATOR_VALUE" enabled="true">
+              <stringProp name="HtmlExtractor.refname">VIEWSTATEGENERATOR</stringProp>
+              <stringProp name="HtmlExtractor.expr">#__VIEWSTATEGENERATOR</stringProp>
+              <stringProp name="HtmlExtractor.attribute">value</stringProp>
+              <stringProp name="HtmlExtractor.default">NOT_FOUND</stringProp>
+              <boolProp name="HtmlExtractor.default_empty_value">false</boolProp>
+              <stringProp name="HtmlExtractor.match_number">0</stringProp>
+              <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
+            </HtmlExtractor>
+            <hashTree/>
+            <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="EVENTVALIDATION_Value" enabled="true">
+              <stringProp name="HtmlExtractor.refname">EVENTVALIDATION</stringProp>
+              <stringProp name="HtmlExtractor.expr">#__EVENTVALIDATION</stringProp>
+              <stringProp name="HtmlExtractor.attribute">value</stringProp>
+              <stringProp name="HtmlExtractor.default">NOT_FOUND</stringProp>
+              <boolProp name="HtmlExtractor.default_empty_value">false</boolProp>
+              <stringProp name="HtmlExtractor.match_number">0</stringProp>
+              <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
+            </HtmlExtractor>
+            <hashTree/>
           </hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="77 /demo/Account/login.aspx" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
@@ -215,21 +255,21 @@
                 <elementProp name="__VIEWSTATE" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">true</boolProp>
                   <stringProp name="Argument.name">__VIEWSTATE</stringProp>
-                  <stringProp name="Argument.value">2vWnL5Ga8Tdmyk5/thpmAD2keDD9ydqORhars6k5H7AxAF30NAfB1K8Ziv7vN9LvolrMqJc+PCcXnsIMA4KbW1EOfXFXbuakdT7aXucNDxuy9O9Yfp0lJKa+MZ4foJqktEF8BLjdR996r0rDIGTNYJnbo+TPgRipDVLTCJtvGV+sWUmA</stringProp>
+                  <stringProp name="Argument.value">${VIEWSTATE}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
                 <elementProp name="__VIEWSTATEGENERATOR" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
                   <stringProp name="Argument.name">__VIEWSTATEGENERATOR</stringProp>
-                  <stringProp name="Argument.value">8D2BBE40</stringProp>
+                  <stringProp name="Argument.value">${VIEWSTATEGENERATOR}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
                 <elementProp name="__EVENTVALIDATION" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">true</boolProp>
                   <stringProp name="Argument.name">__EVENTVALIDATION</stringProp>
-                  <stringProp name="Argument.value">yaZid/MGMG3ADyHihPeOJZW6AdxRZJg+22lumtzNFBS7ORr7NAsrOQgTyZRQQjYJK5qC4M8GxM0QRpLJCk0Vn576mOh2JSwJbCFx9PPVKlN21FhVG5hBcGKqAdurD9QRHG7+CcuoKGmQ0qeSuaKZl/iYMSXOZ5xV9dIvIa2iOvjhggyy</stringProp>
+                  <stringProp name="Argument.value">${EVENTVALIDATION}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
@@ -250,7 +290,7 @@
                 <elementProp name="ctl00$MainContent$LoginUser$LoginButton" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">true</boolProp>
                   <stringProp name="Argument.name">ctl00$MainContent$LoginUser$LoginButton</stringProp>
-                  <stringProp name="Argument.value">Log in</stringProp>
+                  <stringProp name="Argument.value">${LOGIN_BUTTON_VALUE}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
@@ -453,7 +493,7 @@ else {
           </LoopController>
           <hashTree>
             <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-              <stringProp name="filename">C:/apache-jmeter-5.1.1/bin/Custom_dates.csv</stringProp>
+              <stringProp name="filename">Custom_dates.csv</stringProp>
               <stringProp name="fileEncoding"></stringProp>
               <stringProp name="variableNames">CUSTOM_DATE</stringProp>
               <boolProp name="ignoreFirstLine">false</boolProp>
