@@ -28,6 +28,36 @@
             <stringProp name="Argument.value">asd</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="PREDEFINED_DATE" elementType="Argument">
+            <stringProp name="Argument.name">PREDEFINED_DATE</stringProp>
+            <stringProp name="Argument.value">2019/09/10</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="LOOP_CONTROL" elementType="Argument">
+            <stringProp name="Argument.name">LOOP_CONTROL</stringProp>
+            <stringProp name="Argument.value">50</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="PROTOCOL" elementType="Argument">
+            <stringProp name="Argument.name">PROTOCOL</stringProp>
+            <stringProp name="Argument.value">http</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="DOMAIN" elementType="Argument">
+            <stringProp name="Argument.name">DOMAIN</stringProp>
+            <stringProp name="Argument.value">10.17.174.192</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="PORT" elementType="Argument">
+            <stringProp name="Argument.name">PORT</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="PATH" elementType="Argument">
+            <stringProp name="Argument.name">PATH</stringProp>
+            <stringProp name="Argument.value">/demo/</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </elementProp>
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
@@ -37,11 +67,11 @@
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
-        <stringProp name="HTTPSampler.domain">10.17.174.192</stringProp>
-        <stringProp name="HTTPSampler.port"></stringProp>
-        <stringProp name="HTTPSampler.protocol">http</stringProp>
+        <stringProp name="HTTPSampler.domain">${DOMAIN}</stringProp>
+        <stringProp name="HTTPSampler.port">${PORT}</stringProp>
+        <stringProp name="HTTPSampler.protocol">${PROTOCOL}</stringProp>
         <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-        <stringProp name="HTTPSampler.path"></stringProp>
+        <stringProp name="HTTPSampler.path">${PATH}</stringProp>
         <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -49,7 +79,7 @@
       <hashTree/>
       <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
         <collectionProp name="CookieManager.cookies"/>
-        <boolProp name="CookieManager.clearEachIteration">false</boolProp>
+        <boolProp name="CookieManager.clearEachIteration">true</boolProp>
       </CookieManager>
       <hashTree/>
       <CacheManager guiclass="CacheManagerGui" testclass="CacheManager" testname="HTTP Cache Manager" enabled="true">
@@ -83,7 +113,7 @@
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/demo/</stringProp>
+          <stringProp name="HTTPSampler.path"></stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -122,12 +152,12 @@
         </hashTree>
         <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Anonymous script - Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">true</boolProp>
-          <stringProp name="LoopController.loops">50</stringProp>
+          <stringProp name="LoopController.loops">${LOOP_CONTROL}</stringProp>
         </LoopController>
         <hashTree>
-          <SwitchController guiclass="SwitchControllerGui" testclass="SwitchController" testname="Random - Switch Controller" enabled="true">
-            <stringProp name="SwitchController.value">${__Random(0,5)}</stringProp>
-          </SwitchController>
+          <RandomController guiclass="RandomControlGui" testclass="RandomController" testname="Random - Random Controller" enabled="true">
+            <intProp name="InterleaveControl.style">1</intProp>
+          </RandomController>
           <hashTree>
             <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Open Home Page - Simple Controller" enabled="true"/>
             <hashTree>
@@ -139,7 +169,7 @@
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.protocol"></stringProp>
                 <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
-                <stringProp name="HTTPSampler.path">/demo/</stringProp>
+                <stringProp name="HTTPSampler.path"></stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -154,7 +184,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://10.17.174.192/demo/</stringProp>
+                      <stringProp name="Header.value">${PROTOCOL}://${DOMAIN}${PATH}</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -179,29 +209,29 @@
                   </collectionProp>
                 </HeaderManager>
                 <hashTree/>
+                <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="PAGE_COUNT - CSS Selector Extractor" enabled="true">
+                  <stringProp name="HtmlExtractor.refname">PAGE_COUNT</stringProp>
+                  <stringProp name="HtmlExtractor.expr">.PagerLink</stringProp>
+                  <stringProp name="HtmlExtractor.attribute"></stringProp>
+                  <stringProp name="HtmlExtractor.default">NOT_FOUND</stringProp>
+                  <boolProp name="HtmlExtractor.default_empty_value">false</boolProp>
+                  <stringProp name="HtmlExtractor.match_number">-1</stringProp>
+                  <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
+                </HtmlExtractor>
+                <hashTree/>
               </hashTree>
-              <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="CSS Selector Extractor" enabled="true">
-                <stringProp name="HtmlExtractor.refname">pageCount</stringProp>
-                <stringProp name="HtmlExtractor.expr">.PagerLink</stringProp>
-                <stringProp name="HtmlExtractor.attribute"></stringProp>
-                <stringProp name="HtmlExtractor.default">NOT_FOUND</stringProp>
-                <boolProp name="HtmlExtractor.default_empty_value">false</boolProp>
-                <stringProp name="HtmlExtractor.match_number">-1</stringProp>
-                <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
-              </HtmlExtractor>
-              <hashTree/>
               <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Open Random Page - Module Controller" enabled="true">
                 <collectionProp name="ModuleController.node_path">
                   <stringProp name="764597751">Test Plan</stringProp>
                   <stringProp name="764597751">Test Plan</stringProp>
-                  <stringProp name="454019681">Open Random Page - Test Fragment</stringProp>
+                  <stringProp name="401544739">Conditions - Test Fragment</stringProp>
                   <stringProp name="1584925378">Open Random Page - If Controller</stringProp>
                 </collectionProp>
               </ModuleController>
               <hashTree/>
-              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
+              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="POST_PATH - Regular Expression Extractor" enabled="true">
                 <stringProp name="RegexExtractor.useHeaders">false</stringProp>
-                <stringProp name="RegexExtractor.refname">postPath</stringProp>
+                <stringProp name="RegexExtractor.refname">POST_PATH</stringProp>
                 <stringProp name="RegexExtractor.regex">&lt;a href=&quot;\/demo\/post\/(.*)&quot;&gt;(.*)&lt;\/a&gt;</stringProp>
                 <stringProp name="RegexExtractor.template">$1$</stringProp>
                 <stringProp name="RegexExtractor.default">NOT_FOUND</stringProp>
@@ -212,7 +242,7 @@
                 <collectionProp name="ModuleController.node_path">
                   <stringProp name="764597751">Test Plan</stringProp>
                   <stringProp name="764597751">Test Plan</stringProp>
-                  <stringProp name="1261158002">Open Random Post - Test Fragment</stringProp>
+                  <stringProp name="401544739">Conditions - Test Fragment</stringProp>
                   <stringProp name="-1902903597">Open Random Post - If Controller</stringProp>
                 </collectionProp>
               </ModuleController>
@@ -221,7 +251,7 @@
                 <collectionProp name="ModuleController.node_path">
                   <stringProp name="764597751">Test Plan</stringProp>
                   <stringProp name="764597751">Test Plan</stringProp>
-                  <stringProp name="-1954946380">Open Contacts - Test Fragment</stringProp>
+                  <stringProp name="401544739">Conditions - Test Fragment</stringProp>
                   <stringProp name="-824040683">Open Contacts - If Controller</stringProp>
                 </collectionProp>
               </ModuleController>
@@ -232,7 +262,7 @@
               <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
                 <stringProp name="delimiter">,</stringProp>
                 <stringProp name="fileEncoding"></stringProp>
-                <stringProp name="filename">C:/apache-jmeter-5.1.1/bin/Custom_dates.csv</stringProp>
+                <stringProp name="filename">Custom_dates.csv</stringProp>
                 <boolProp name="ignoreFirstLine">false</boolProp>
                 <boolProp name="quotedData">false</boolProp>
                 <boolProp name="recycle">true</boolProp>
@@ -249,7 +279,7 @@
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.protocol"></stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">/demo/${__groovy(vars.get(&quot;CUSTOM_DATE&quot;).split(&quot; &quot;)[0].replaceAll(&quot;-&quot;\,&quot;/&quot;),)}/default</stringProp>
+                <stringProp name="HTTPSampler.path">${PATH}${__groovy(vars.get(&quot;CUSTOM_DATE&quot;).split(&quot; &quot;)[0].replaceAll(&quot;-&quot;\,&quot;/&quot;),)}/default</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -285,29 +315,29 @@
                   </collectionProp>
                 </HeaderManager>
                 <hashTree/>
+                <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="PAGE_COUNT - CSS Selector Extractor" enabled="true">
+                  <stringProp name="HtmlExtractor.refname">PAGE_COUNT</stringProp>
+                  <stringProp name="HtmlExtractor.expr">.PagerLink</stringProp>
+                  <stringProp name="HtmlExtractor.attribute"></stringProp>
+                  <stringProp name="HtmlExtractor.default">NOT_FOUND</stringProp>
+                  <boolProp name="HtmlExtractor.default_empty_value">false</boolProp>
+                  <stringProp name="HtmlExtractor.match_number">-1</stringProp>
+                  <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
+                </HtmlExtractor>
+                <hashTree/>
               </hashTree>
-              <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="CSS Selector Extractor" enabled="true">
-                <stringProp name="HtmlExtractor.refname">pageCount</stringProp>
-                <stringProp name="HtmlExtractor.expr">.PagerLink</stringProp>
-                <stringProp name="HtmlExtractor.attribute"></stringProp>
-                <stringProp name="HtmlExtractor.default">NOT_FOUND</stringProp>
-                <boolProp name="HtmlExtractor.default_empty_value">false</boolProp>
-                <stringProp name="HtmlExtractor.match_number">-1</stringProp>
-                <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
-              </HtmlExtractor>
-              <hashTree/>
               <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Open Random Page - Module Controller" enabled="true">
                 <collectionProp name="ModuleController.node_path">
                   <stringProp name="764597751">Test Plan</stringProp>
                   <stringProp name="764597751">Test Plan</stringProp>
-                  <stringProp name="454019681">Open Random Page - Test Fragment</stringProp>
+                  <stringProp name="401544739">Conditions - Test Fragment</stringProp>
                   <stringProp name="1584925378">Open Random Page - If Controller</stringProp>
                 </collectionProp>
               </ModuleController>
               <hashTree/>
-              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
+              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="POST_PATH - Regular Expression Extractor" enabled="true">
                 <stringProp name="RegexExtractor.useHeaders">false</stringProp>
-                <stringProp name="RegexExtractor.refname">postPath</stringProp>
+                <stringProp name="RegexExtractor.refname">POST_PATH</stringProp>
                 <stringProp name="RegexExtractor.regex">&lt;a href=&quot;\/demo\/post\/(.*)&quot;&gt;(.*)&lt;\/a&gt;</stringProp>
                 <stringProp name="RegexExtractor.template">$1$</stringProp>
                 <stringProp name="RegexExtractor.default">NOT_FOUND</stringProp>
@@ -318,7 +348,7 @@
                 <collectionProp name="ModuleController.node_path">
                   <stringProp name="764597751">Test Plan</stringProp>
                   <stringProp name="764597751">Test Plan</stringProp>
-                  <stringProp name="1261158002">Open Random Post - Test Fragment</stringProp>
+                  <stringProp name="401544739">Conditions - Test Fragment</stringProp>
                   <stringProp name="-1902903597">Open Random Post - If Controller</stringProp>
                 </collectionProp>
               </ModuleController>
@@ -327,7 +357,7 @@
                 <collectionProp name="ModuleController.node_path">
                   <stringProp name="764597751">Test Plan</stringProp>
                   <stringProp name="764597751">Test Plan</stringProp>
-                  <stringProp name="-1954946380">Open Contacts - Test Fragment</stringProp>
+                  <stringProp name="401544739">Conditions - Test Fragment</stringProp>
                   <stringProp name="-824040683">Open Contacts - If Controller</stringProp>
                 </collectionProp>
               </ModuleController>
@@ -343,7 +373,7 @@
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.protocol"></stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">/demo/2019/09/10/default</stringProp>
+                <stringProp name="HTTPSampler.path">${PATH}${PREDEFINED_DATE}/default</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -358,7 +388,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://10.17.174.192/demo/</stringProp>
+                      <stringProp name="Header.value">${PROTOCOL}://${DOMAIN}${PATH}</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -383,29 +413,29 @@
                   </collectionProp>
                 </HeaderManager>
                 <hashTree/>
+                <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="PAGE_COUNT - CSS Selector Extractor" enabled="true">
+                  <stringProp name="HtmlExtractor.refname">PAGE_COUNT</stringProp>
+                  <stringProp name="HtmlExtractor.expr">.PagerLink</stringProp>
+                  <stringProp name="HtmlExtractor.attribute"></stringProp>
+                  <stringProp name="HtmlExtractor.default">NOT_FOUND</stringProp>
+                  <boolProp name="HtmlExtractor.default_empty_value">false</boolProp>
+                  <stringProp name="HtmlExtractor.match_number">-1</stringProp>
+                  <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
+                </HtmlExtractor>
+                <hashTree/>
               </hashTree>
-              <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="CSS Selector Extractor" enabled="true">
-                <stringProp name="HtmlExtractor.refname">pageCount</stringProp>
-                <stringProp name="HtmlExtractor.expr">.PagerLink</stringProp>
-                <stringProp name="HtmlExtractor.attribute"></stringProp>
-                <stringProp name="HtmlExtractor.default">NOT_FOUND</stringProp>
-                <boolProp name="HtmlExtractor.default_empty_value">false</boolProp>
-                <stringProp name="HtmlExtractor.match_number">-1</stringProp>
-                <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
-              </HtmlExtractor>
-              <hashTree/>
               <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Open Random Page - Module Controller" enabled="true">
                 <collectionProp name="ModuleController.node_path">
                   <stringProp name="764597751">Test Plan</stringProp>
                   <stringProp name="764597751">Test Plan</stringProp>
-                  <stringProp name="454019681">Open Random Page - Test Fragment</stringProp>
+                  <stringProp name="401544739">Conditions - Test Fragment</stringProp>
                   <stringProp name="1584925378">Open Random Page - If Controller</stringProp>
                 </collectionProp>
               </ModuleController>
               <hashTree/>
-              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
+              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="POST_PATH - Regular Expression Extractor" enabled="true">
                 <stringProp name="RegexExtractor.useHeaders">false</stringProp>
-                <stringProp name="RegexExtractor.refname">postPath</stringProp>
+                <stringProp name="RegexExtractor.refname">POST_PATH</stringProp>
                 <stringProp name="RegexExtractor.regex">&lt;a href=&quot;\/demo\/post\/(.*)&quot;&gt;(.*)&lt;\/a&gt;</stringProp>
                 <stringProp name="RegexExtractor.template">$1$</stringProp>
                 <stringProp name="RegexExtractor.default">NOT_FOUND</stringProp>
@@ -416,7 +446,7 @@
                 <collectionProp name="ModuleController.node_path">
                   <stringProp name="764597751">Test Plan</stringProp>
                   <stringProp name="764597751">Test Plan</stringProp>
-                  <stringProp name="1261158002">Open Random Post - Test Fragment</stringProp>
+                  <stringProp name="401544739">Conditions - Test Fragment</stringProp>
                   <stringProp name="-1902903597">Open Random Post - If Controller</stringProp>
                 </collectionProp>
               </ModuleController>
@@ -425,7 +455,7 @@
                 <collectionProp name="ModuleController.node_path">
                   <stringProp name="764597751">Test Plan</stringProp>
                   <stringProp name="764597751">Test Plan</stringProp>
-                  <stringProp name="-1954946380">Open Contacts - Test Fragment</stringProp>
+                  <stringProp name="401544739">Conditions - Test Fragment</stringProp>
                   <stringProp name="-824040683">Open Contacts - If Controller</stringProp>
                 </collectionProp>
               </ModuleController>
@@ -449,7 +479,7 @@
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.protocol"></stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">/demo/search</stringProp>
+                <stringProp name="HTTPSampler.path">${PATH}search</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -464,7 +494,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://10.17.174.192/demo/2019/04/10/default</stringProp>
+                      <stringProp name="Header.value">${PROTOCOL}://${DOMAIN}${PATH}</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -490,9 +520,9 @@
                 </HeaderManager>
                 <hashTree/>
               </hashTree>
-              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
+              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="POST_PATH - Regular Expression Extractor" enabled="true">
                 <stringProp name="RegexExtractor.useHeaders">false</stringProp>
-                <stringProp name="RegexExtractor.refname">postPath</stringProp>
+                <stringProp name="RegexExtractor.refname">POST_PATH</stringProp>
                 <stringProp name="RegexExtractor.regex">&lt;a href=&quot;\/demo\/post\/(.*)&quot;&gt;(.*)&lt;\/a&gt;</stringProp>
                 <stringProp name="RegexExtractor.template">$1$</stringProp>
                 <stringProp name="RegexExtractor.default">NOT_FOUND</stringProp>
@@ -503,7 +533,7 @@
                 <collectionProp name="ModuleController.node_path">
                   <stringProp name="764597751">Test Plan</stringProp>
                   <stringProp name="764597751">Test Plan</stringProp>
-                  <stringProp name="1261158002">Open Random Post - Test Fragment</stringProp>
+                  <stringProp name="401544739">Conditions - Test Fragment</stringProp>
                   <stringProp name="-1902903597">Open Random Post - If Controller</stringProp>
                 </collectionProp>
               </ModuleController>
@@ -512,7 +542,7 @@
                 <collectionProp name="ModuleController.node_path">
                   <stringProp name="764597751">Test Plan</stringProp>
                   <stringProp name="764597751">Test Plan</stringProp>
-                  <stringProp name="-1954946380">Open Contacts - Test Fragment</stringProp>
+                  <stringProp name="401544739">Conditions - Test Fragment</stringProp>
                   <stringProp name="-824040683">Open Contacts - If Controller</stringProp>
                 </collectionProp>
               </ModuleController>
@@ -528,7 +558,7 @@
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.protocol">http</stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">/demo/calendar/default.aspx</stringProp>
+                <stringProp name="HTTPSampler.path">${PATH}calendar/default.aspx</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -543,7 +573,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://10.17.174.192/demo/</stringProp>
+                      <stringProp name="Header.value">${PROTOCOL}://${DOMAIN}${PATH}</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -569,9 +599,9 @@
                 </HeaderManager>
                 <hashTree/>
               </hashTree>
-              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
+              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="POST_PATH - Regular Expression Extractor" enabled="true">
                 <stringProp name="RegexExtractor.useHeaders">false</stringProp>
-                <stringProp name="RegexExtractor.refname">postPath</stringProp>
+                <stringProp name="RegexExtractor.refname">POST_PATH</stringProp>
                 <stringProp name="RegexExtractor.regex">&lt;a href=&quot;\/demo\/post\/([a-zA-Z0-9\-]{0,})&quot;&gt;</stringProp>
                 <stringProp name="RegexExtractor.template">$1$</stringProp>
                 <stringProp name="RegexExtractor.default">NOT_FOUND</stringProp>
@@ -582,7 +612,7 @@
                 <collectionProp name="ModuleController.node_path">
                   <stringProp name="764597751">Test Plan</stringProp>
                   <stringProp name="764597751">Test Plan</stringProp>
-                  <stringProp name="1261158002">Open Random Post - Test Fragment</stringProp>
+                  <stringProp name="401544739">Conditions - Test Fragment</stringProp>
                   <stringProp name="-1902903597">Open Random Post - If Controller</stringProp>
                 </collectionProp>
               </ModuleController>
@@ -591,7 +621,7 @@
                 <collectionProp name="ModuleController.node_path">
                   <stringProp name="764597751">Test Plan</stringProp>
                   <stringProp name="764597751">Test Plan</stringProp>
-                  <stringProp name="-1954946380">Open Contacts - Test Fragment</stringProp>
+                  <stringProp name="401544739">Conditions - Test Fragment</stringProp>
                   <stringProp name="-824040683">Open Contacts - If Controller</stringProp>
                 </collectionProp>
               </ModuleController>
@@ -607,7 +637,7 @@
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.protocol"></stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">/demo/contact</stringProp>
+                <stringProp name="HTTPSampler.path">${PATH}contact</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -622,7 +652,7 @@
                   <collectionProp name="HeaderManager.headers">
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://10.17.174.192/demo/</stringProp>
+                      <stringProp name="Header.value">${PROTOCOL}://${DOMAIN}${PATH}</stringProp>
                     </elementProp>
                     <elementProp name="Accept-Language" elementType="Header">
                       <stringProp name="Header.name">Accept-Language</stringProp>
@@ -652,10 +682,10 @@
           </hashTree>
         </hashTree>
       </hashTree>
-      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="Open Random Page - Test Fragment" enabled="false"/>
+      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="Conditions - Test Fragment" enabled="false"/>
       <hashTree>
         <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Open Random Page - If Controller" enabled="true">
-          <stringProp name="IfController.condition">${__groovy(${pageCount_matchNr}.toInteger() &gt; 0)}</stringProp>
+          <stringProp name="IfController.condition">${__groovy(${PAGE_COUNT_matchNr}.toInteger() &gt; 0)}</stringProp>
           <boolProp name="IfController.evaluateAll">false</boolProp>
           <boolProp name="IfController.useExpression">true</boolProp>
         </IfController>
@@ -666,7 +696,7 @@
                 <elementProp name="page" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.name">page</stringProp>
-                  <stringProp name="Argument.value">${__Random(2,${pageCount_matchNr})}</stringProp>
+                  <stringProp name="Argument.value">${__Random(2,${PAGE_COUNT_matchNr})}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
@@ -691,7 +721,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://10.17.174.192/demo/</stringProp>
+                  <stringProp name="Header.value">${PROTOCOL}://${DOMAIN}${PATH}</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -718,11 +748,8 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-      </hashTree>
-      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="Open Random Post - Test Fragment" enabled="false"/>
-      <hashTree>
         <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Open Random Post - If Controller" enabled="true">
-          <stringProp name="IfController.condition">${__groovy(${postPath_matchNr}.toInteger() &gt; 0)}</stringProp>
+          <stringProp name="IfController.condition">${__groovy(${POST_PATH_matchNr}.toInteger() &gt; 0)}</stringProp>
           <boolProp name="IfController.evaluateAll">false</boolProp>
           <boolProp name="IfController.useExpression">true</boolProp>
         </IfController>
@@ -735,7 +762,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/demo/post/${__groovy(vars.get(&quot;postPath_&quot;+${__Random(1,${postPath_matchNr},)}))}</stringProp>
+            <stringProp name="HTTPSampler.path">/demo/post/${__groovy(vars.get(&quot;POST_PATH_&quot;+${__Random(1,${POST_PATH_matchNr},)}))}</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -750,7 +777,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://10.17.174.192/</stringProp>
+                  <stringProp name="Header.value">${PROTOCOL}://${DOMAIN}${PATH}</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -777,9 +804,6 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-      </hashTree>
-      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="Open Contacts - Test Fragment" enabled="false"/>
-      <hashTree>
         <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Open Contacts - If Controller" enabled="true">
           <stringProp name="IfController.condition">${__groovy(${postPath_matchNr}.toInteger() == 0)}</stringProp>
           <boolProp name="IfController.evaluateAll">false</boolProp>
@@ -792,7 +816,7 @@
               <stringProp name="764597751">Test Plan</stringProp>
               <stringProp name="-1948168983">Thread Group</stringProp>
               <stringProp name="-1855086333">Anonymous script - Loop Controller</stringProp>
-              <stringProp name="471341080">Random - Switch Controller</stringProp>
+              <stringProp name="1626221353">Random - Random Controller</stringProp>
               <stringProp name="-898526112">Open Contacts - Simple Controller</stringProp>
             </collectionProp>
           </ModuleController>
