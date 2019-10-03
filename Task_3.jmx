@@ -209,15 +209,14 @@
                   </collectionProp>
                 </HeaderManager>
                 <hashTree/>
-                <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="PAGE_COUNT - CSS Selector Extractor" enabled="true">
-                  <stringProp name="HtmlExtractor.refname">PAGE_COUNT</stringProp>
-                  <stringProp name="HtmlExtractor.expr">.PagerLink</stringProp>
-                  <stringProp name="HtmlExtractor.attribute"></stringProp>
-                  <stringProp name="HtmlExtractor.default">NOT_FOUND</stringProp>
-                  <boolProp name="HtmlExtractor.default_empty_value">false</boolProp>
-                  <stringProp name="HtmlExtractor.match_number">-1</stringProp>
-                  <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
-                </HtmlExtractor>
+                <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="PAGE_COUNT - Regular Expression Extractor" enabled="true">
+                  <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+                  <stringProp name="RegexExtractor.refname">PAGE_COUNT</stringProp>
+                  <stringProp name="RegexExtractor.regex">&lt;a href=&quot;(\/demo\/)\?page=(\d+)&quot;&gt;\d+&lt;\/a&gt;</stringProp>
+                  <stringProp name="RegexExtractor.template">$1$</stringProp>
+                  <stringProp name="RegexExtractor.default">NOT_FOUND</stringProp>
+                  <stringProp name="RegexExtractor.match_number">0</stringProp>
+                </RegexExtractor>
                 <hashTree/>
               </hashTree>
               <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Open Random Page - Module Controller" enabled="true">
@@ -255,6 +254,13 @@
                   <stringProp name="-824040683">Open Contacts - If Controller</stringProp>
                 </collectionProp>
               </ModuleController>
+              <hashTree/>
+              <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
+                <boolProp name="displayJMeterProperties">false</boolProp>
+                <boolProp name="displayJMeterVariables">true</boolProp>
+                <boolProp name="displaySamplerProperties">true</boolProp>
+                <boolProp name="displaySystemProperties">false</boolProp>
+              </DebugPostProcessor>
               <hashTree/>
             </hashTree>
             <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Open Random Date - Simple Controller" enabled="true"/>
@@ -315,15 +321,14 @@
                   </collectionProp>
                 </HeaderManager>
                 <hashTree/>
-                <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="PAGE_COUNT - CSS Selector Extractor" enabled="true">
-                  <stringProp name="HtmlExtractor.refname">PAGE_COUNT</stringProp>
-                  <stringProp name="HtmlExtractor.expr">.PagerLink</stringProp>
-                  <stringProp name="HtmlExtractor.attribute"></stringProp>
-                  <stringProp name="HtmlExtractor.default">NOT_FOUND</stringProp>
-                  <boolProp name="HtmlExtractor.default_empty_value">false</boolProp>
-                  <stringProp name="HtmlExtractor.match_number">-1</stringProp>
-                  <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
-                </HtmlExtractor>
+                <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="PAGE_COUNT - Regular Expression Extractor" enabled="true">
+                  <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+                  <stringProp name="RegexExtractor.refname">PAGE_COUNT</stringProp>
+                  <stringProp name="RegexExtractor.regex">&lt;a href=&quot;(\/demo\/\d{4}\/\d{2}\/\d{2}\/default)\?page=(\d+)&quot;&gt;\d+&lt;\/a&gt;</stringProp>
+                  <stringProp name="RegexExtractor.template">$1$</stringProp>
+                  <stringProp name="RegexExtractor.default">NOT_FOUND</stringProp>
+                  <stringProp name="RegexExtractor.match_number">0</stringProp>
+                </RegexExtractor>
                 <hashTree/>
               </hashTree>
               <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Open Random Page - Module Controller" enabled="true">
@@ -413,15 +418,14 @@
                   </collectionProp>
                 </HeaderManager>
                 <hashTree/>
-                <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="PAGE_COUNT - CSS Selector Extractor" enabled="true">
-                  <stringProp name="HtmlExtractor.refname">PAGE_COUNT</stringProp>
-                  <stringProp name="HtmlExtractor.expr">.PagerLink</stringProp>
-                  <stringProp name="HtmlExtractor.attribute"></stringProp>
-                  <stringProp name="HtmlExtractor.default">NOT_FOUND</stringProp>
-                  <boolProp name="HtmlExtractor.default_empty_value">false</boolProp>
-                  <stringProp name="HtmlExtractor.match_number">-1</stringProp>
-                  <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
-                </HtmlExtractor>
+                <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="PAGE_COUNT - Regular Expression Extractor" enabled="true">
+                  <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+                  <stringProp name="RegexExtractor.refname">PAGE_COUNT</stringProp>
+                  <stringProp name="RegexExtractor.regex">&lt;a href=&quot;(\/demo\/\d{4}\/\d{2}\/\d{2}\/default)\?page=(\d+)&quot;&gt;\d+&lt;\/a&gt;</stringProp>
+                  <stringProp name="RegexExtractor.template">$1$</stringProp>
+                  <stringProp name="RegexExtractor.default">NOT_FOUND</stringProp>
+                  <stringProp name="RegexExtractor.match_number">0</stringProp>
+                </RegexExtractor>
                 <hashTree/>
               </hashTree>
               <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Open Random Page - Module Controller" enabled="true">
@@ -685,7 +689,7 @@
       <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="Conditions - Test Fragment" enabled="false"/>
       <hashTree>
         <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Open Random Page - If Controller" enabled="true">
-          <stringProp name="IfController.condition">${__groovy(${PAGE_COUNT_matchNr}.toInteger() &gt; 0)}</stringProp>
+          <stringProp name="IfController.condition">${__groovy(vars.get(&quot;PAGE_COUNT&quot;) != &quot;NOT_FOUND&quot;)}</stringProp>
           <boolProp name="IfController.evaluateAll">false</boolProp>
           <boolProp name="IfController.useExpression">true</boolProp>
         </IfController>
@@ -695,10 +699,10 @@
               <collectionProp name="Arguments.arguments">
                 <elementProp name="page" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.name">page</stringProp>
-                  <stringProp name="Argument.value">${__Random(2,${PAGE_COUNT_matchNr})}</stringProp>
+                  <stringProp name="Argument.value">${PAGE_COUNT_g2})</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">page</stringProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
@@ -706,7 +710,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/demo/</stringProp>
+            <stringProp name="HTTPSampler.path">${PATH}</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
