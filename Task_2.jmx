@@ -10,52 +10,52 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="DOMAIN" elementType="Argument">
             <stringProp name="Argument.name">DOMAIN</stringProp>
-            <stringProp name="Argument.value">10.17.174.192</stringProp>
+            <stringProp name="Argument.value">${__P(DOMAIN,10.17.175.19)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="PROTOCOL" elementType="Argument">
             <stringProp name="Argument.name">PROTOCOL</stringProp>
-            <stringProp name="Argument.value">http</stringProp>
+            <stringProp name="Argument.value">${__P(PROTOCOL,http)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="USERS_COUNT" elementType="Argument">
             <stringProp name="Argument.name">USERS_COUNT</stringProp>
-            <stringProp name="Argument.value">2</stringProp>
+            <stringProp name="Argument.value">${__P(USERS_COUNT,2)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="RAMP_UP" elementType="Argument">
             <stringProp name="Argument.name">RAMP_UP</stringProp>
-            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.value">${__P(RAMP_UP,1)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="LOOP_COUNT" elementType="Argument">
             <stringProp name="Argument.name">LOOP_COUNT</stringProp>
-            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.value">${__P(LOOP_COUNT,1)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="USER_NAME" elementType="Argument">
             <stringProp name="Argument.name">USER_NAME</stringProp>
-            <stringProp name="Argument.value">editor</stringProp>
+            <stringProp name="Argument.value">${__P(USER_NAME,editor)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="USER_PASSWORD" elementType="Argument">
             <stringProp name="Argument.name">USER_PASSWORD</stringProp>
-            <stringProp name="Argument.value">editor</stringProp>
+            <stringProp name="Argument.value">${__P(USER_PASSWORD,editor)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="POSTS_COUNT" elementType="Argument">
             <stringProp name="Argument.name">POSTS_COUNT</stringProp>
-            <stringProp name="Argument.value">100</stringProp>
+            <stringProp name="Argument.value">${__P(POSTS_COUNT,100)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="POST_DATA" elementType="Argument">
             <stringProp name="Argument.name">POST_DATA</stringProp>
-            <stringProp name="Argument.value">Lorem ipsum</stringProp>
+            <stringProp name="Argument.value">${__P(POST_DATA,Lorem ipsum)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="POST_DATE" elementType="Argument">
             <stringProp name="Argument.name">POST_DATE</stringProp>
-            <stringProp name="Argument.value">2019-09-19 15:55</stringProp>
+            <stringProp name="Argument.value">${__P(POST_DATE,&quot;2019-09-19 15:55&quot;)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -208,7 +208,7 @@
               </collectionProp>
             </HeaderManager>
             <hashTree/>
-            <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="LOGIN_BUTTON_VALUE" enabled="true">
+            <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="Get LOGIN_BUTTON_VALUE" enabled="true">
               <stringProp name="HtmlExtractor.refname">LOGIN_BUTTON_VALUE</stringProp>
               <stringProp name="HtmlExtractor.expr">#LoginButton</stringProp>
               <stringProp name="HtmlExtractor.attribute">value</stringProp>
@@ -218,7 +218,7 @@
               <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
             </HtmlExtractor>
             <hashTree/>
-            <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="VIEWSTATE_VALUE" enabled="true">
+            <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="Get VIEWSTATE_VALUE" enabled="true">
               <stringProp name="HtmlExtractor.refname">VIEWSTATE</stringProp>
               <stringProp name="HtmlExtractor.expr">#__VIEWSTATE</stringProp>
               <stringProp name="HtmlExtractor.attribute">value</stringProp>
@@ -228,7 +228,7 @@
               <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
             </HtmlExtractor>
             <hashTree/>
-            <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="VIEWSTATEGENERATOR_VALUE" enabled="true">
+            <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="Get VIEWSTATEGENERATOR_VALUE" enabled="true">
               <stringProp name="HtmlExtractor.refname">VIEWSTATEGENERATOR</stringProp>
               <stringProp name="HtmlExtractor.expr">#__VIEWSTATEGENERATOR</stringProp>
               <stringProp name="HtmlExtractor.attribute">value</stringProp>
@@ -238,7 +238,7 @@
               <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
             </HtmlExtractor>
             <hashTree/>
-            <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="EVENTVALIDATION_Value" enabled="true">
+            <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="Get EVENTVALIDATION_Value" enabled="true">
               <stringProp name="HtmlExtractor.refname">EVENTVALIDATION</stringProp>
               <stringProp name="HtmlExtractor.expr">#__EVENTVALIDATION</stringProp>
               <stringProp name="HtmlExtractor.attribute">value</stringProp>
