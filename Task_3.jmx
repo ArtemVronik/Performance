@@ -20,7 +20,7 @@
           </elementProp>
           <elementProp name="LOOP_NUM" elementType="Argument">
             <stringProp name="Argument.name">LOOP_NUM</stringProp>
-            <stringProp name="Argument.value">${__P(LOOP_NUM,1)}</stringProp>
+            <stringProp name="Argument.value">${__P(LOOP_NUM,100)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="SEARCH_VALUE" elementType="Argument">
@@ -111,7 +111,7 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Gaussian Random Timer" enabled="false">
+        <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Gaussian Random Timer" enabled="true">
           <stringProp name="ConstantTimer.delay">1000</stringProp>
           <stringProp name="RandomTimer.range">250</stringProp>
         </GaussianRandomTimer>
@@ -178,7 +178,7 @@
                 <stringProp name="764597751">Test Plan</stringProp>
                 <stringProp name="764597751">Test Plan</stringProp>
                 <stringProp name="401544739">Conditions - Test Fragment</stringProp>
-                <stringProp name="-1902903597">Open Random Post - If Controller</stringProp>
+                <stringProp name="-1663630470">If Random Post</stringProp>
               </collectionProp>
             </ModuleController>
             <hashTree/>
@@ -187,7 +187,7 @@
                 <stringProp name="764597751">Test Plan</stringProp>
                 <stringProp name="764597751">Test Plan</stringProp>
                 <stringProp name="401544739">Conditions - Test Fragment</stringProp>
-                <stringProp name="-824040683">Open Contacts - If Controller</stringProp>
+                <stringProp name="890220534">If Contacts</stringProp>
               </collectionProp>
             </ModuleController>
             <hashTree/>
@@ -631,7 +631,7 @@
               <stringProp name="764597751">Test Plan</stringProp>
               <stringProp name="-1948168983">Thread Group</stringProp>
               <stringProp name="-1412688485">Random Anonymous script</stringProp>
-              <stringProp name="-898526112">Open Contacts - Simple Controller</stringProp>
+              <stringProp name="411443561">Open Contacts</stringProp>
             </collectionProp>
           </ModuleController>
           <hashTree/>
