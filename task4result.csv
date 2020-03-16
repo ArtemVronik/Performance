@@ -1,0 +1,194 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1584372384833,27,Open Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32311,363,1,1,null,0,455,0
+1584372385287,27,Open Home Page,200,OK,Thread Group 1-1,text,true,,32311,363,1,1,http://10.17.175.19/demo/,27,0,1
+1584372385316,6,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,5713,1414,1,1,null,0,703,0
+1584372385767,3,Login.Open,200,OK,Thread Group 1-1,text,true,,4543,381,1,1,http://10.17.175.19/demo/Account/login.aspx,3,0,0
+1584372386020,3,Login.Submit,302,Found,Thread Group 1-1,text,true,,1170,1033,1,1,http://10.17.175.19/demo/Account/login.aspx,3,0,0
+1584372386025,8,Open Admin Page,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,16924,2357,1,1,null,0,328,0
+1584372386059,4,Open Admin Page,200,OK,Thread Group 1-1,text,true,,8978,1169,1,1,http://10.17.175.19/demo/admin/,4,0,0
+1584372386330,4,Get users,200,OK,Thread Group 1-1,text,true,,7946,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1584372386533,5,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,104,0
+1584372386637,5,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,5,0,0
+1584372386647,4,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,7494,1188,1,1,null,0,595,0
+1584372387241,4,Get users,200,OK,Thread Group 1-1,text,true,,7494,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1584372387246,8,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,452,0
+1584372387698,8,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,8,0,1
+1584372387706,4,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,7042,1188,1,1,null,0,275,0
+1584372387980,4,Get users,200,OK,Thread Group 1-1,text,true,,7042,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1584372387985,4,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,47,0
+1584372388032,4,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,4,0,0
+1584372388036,3,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,6590,1188,1,1,null,0,467,0
+1584372388502,3,Get users,200,OK,Thread Group 1-1,text,true,,6590,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1584372388506,4,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,95,0
+1584372388601,4,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,4,0,0
+1584372388606,3,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,6138,1188,1,1,null,0,65,0
+1584372388670,3,Get users,200,OK,Thread Group 1-1,text,true,,6138,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1584372388674,4,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,752,0
+1584372389426,4,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,4,0,0
+1584372389430,5,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5686,1188,1,1,null,0,549,0
+1584372389979,5,Get users,200,OK,Thread Group 1-1,text,true,,5686,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,5,0,0
+1584372389985,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,490,1447,1,1,null,0,52,0
+1584372390037,4,Add User,201,Created,Thread Group 1-1,text,true,,490,1447,1,1,http://10.17.175.19/demo/api/users,4,0,0
+1584372390041,3,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,6138,1188,1,1,null,0,434,0
+1584372390474,3,Get users,200,OK,Thread Group 1-1,text,true,,6138,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1584372390478,3,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,31,0
+1584372390508,3,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,3,0,0
+1584372390512,3,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5686,1188,1,1,null,0,76,0
+1584372390587,3,Get users,200,OK,Thread Group 1-1,text,true,,5686,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1584372390591,4,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,52,0
+1584372390643,4,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,4,0,0
+1584372390647,3,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5234,1188,1,1,null,0,511,0
+1584372391157,3,Get users,200,OK,Thread Group 1-1,text,true,,5234,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1584372391161,3,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,233,0
+1584372391394,3,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,3,0,0
+1584372391398,5,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4782,1188,1,1,null,0,611,0
+1584372392008,5,Get users,200,OK,Thread Group 1-1,text,true,,4782,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,5,0,1
+1584372392014,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,490,1447,1,1,null,0,345,0
+1584372392359,4,Add User,201,Created,Thread Group 1-1,text,true,,490,1447,1,1,http://10.17.175.19/demo/api/users,4,0,0
+1584372392441,2,Logout,302,Found,Thread Group 1-1,text,true,,487,1162,1,1,http://10.17.175.19/demo/Account/login.aspx?logoff,2,0,0
+1584372392441,2,Logout-0,302,Found,Thread Group 1-1,text,true,,487,1162,1,1,http://10.17.175.19/demo/Account/login.aspx?logoff,2,0,0
+1584372392363,2,Logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,487,1162,1,1,null,2,79,0
+1584372409423,47,Open Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32311,363,1,1,null,0,44,0
+1584372409467,47,Open Home Page,200,OK,Thread Group 1-1,text,true,,32311,363,1,1,http://10.17.175.19/demo/,47,0,1
+1584372409514,5,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,5713,1424,1,1,null,0,199,0
+1584372409661,2,Login.Open,200,OK,Thread Group 1-1,text,true,,4543,381,1,1,http://10.17.175.19/demo/Account/login.aspx,2,0,0
+1584372409715,3,Login.Submit,302,Found,Thread Group 1-1,text,true,,1170,1043,1,1,http://10.17.175.19/demo/Account/login.aspx,3,0,0
+1584372409718,6,Open Admin Page,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,14212,2357,1,1,null,0,327,0
+1584372409892,2,Open Admin Page,200,OK,Thread Group 1-1,text,true,,8978,1169,1,1,http://10.17.175.19/demo/admin/,2,0,0
+1584372410046,4,Get users,200,OK,Thread Group 1-1,text,true,,5234,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1584372410060,4,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,28,0
+1584372410088,4,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,4,0,0
+1584372410096,3,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4782,1188,1,1,null,0,394,0
+1584372410490,3,Get users,200,OK,Thread Group 1-1,text,true,,4782,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1584372410494,3,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,399,0
+1584372410893,3,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,3,0,0
+1584372410897,3,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4330,1188,1,1,null,0,425,0
+1584372411322,3,Get users,200,OK,Thread Group 1-1,text,true,,4330,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1584372411325,3,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,490,1447,1,1,null,0,80,0
+1584372411404,3,Add User,201,Created,Thread Group 1-1,text,true,,490,1447,1,1,http://10.17.175.19/demo/api/users,3,0,0
+1584372411408,5,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4782,1188,1,1,null,0,557,0
+1584372411964,5,Get users,200,OK,Thread Group 1-1,text,true,,4782,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,5,0,0
+1584372411970,3,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,490,1447,1,1,null,0,198,0
+1584372412168,3,Add User,201,Created,Thread Group 1-1,text,true,,490,1447,1,1,http://10.17.175.19/demo/api/users,3,0,0
+1584372412172,4,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5234,1188,1,1,null,0,139,0
+1584372412311,4,Get users,200,OK,Thread Group 1-1,text,true,,5234,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1584372412315,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,490,1447,1,1,null,0,616,0
+1584372412931,4,Add User,201,Created,Thread Group 1-1,text,true,,490,1447,1,1,http://10.17.175.19/demo/api/users,4,0,0
+1584372412935,4,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5686,1188,1,1,null,0,590,0
+1584372413525,4,Get users,200,OK,Thread Group 1-1,text,true,,5686,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1584372413529,4,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,240,0
+1584372413769,4,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,4,0,0
+1584372413774,23,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5234,1188,1,1,null,0,223,0
+1584372413996,23,Get users,200,OK,Thread Group 1-1,text,true,,5234,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,23,0,1
+1584372414020,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,490,1447,1,1,null,0,294,0
+1584372414314,4,Add User,201,Created,Thread Group 1-1,text,true,,490,1447,1,1,http://10.17.175.19/demo/api/users,4,0,0
+1584372414318,4,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5686,1188,1,1,null,0,408,0
+1584372414725,4,Get users,200,OK,Thread Group 1-1,text,true,,5686,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1584372414730,4,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,57,0
+1584372414787,4,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,4,0,0
+1584372414791,3,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5234,1188,1,1,null,0,281,0
+1584372415071,3,Get users,200,OK,Thread Group 1-1,text,true,,5234,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1584372415075,3,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,490,1447,1,1,null,0,105,0
+1584372415180,3,Add User,201,Created,Thread Group 1-1,text,true,,490,1447,1,1,http://10.17.175.19/demo/api/users,3,0,0
+1584372415184,4,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5686,1188,1,1,null,0,44,0
+1584372415228,4,Get users,200,OK,Thread Group 1-1,text,true,,5686,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1584372415233,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,490,1447,1,1,null,0,74,0
+1584372415307,4,Add User,201,Created,Thread Group 1-1,text,true,,490,1447,1,1,http://10.17.175.19/demo/api/users,4,0,0
+1584372415311,1,Logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,487,1162,1,1,null,0,289,0
+1584372415599,1,Logout,302,Found,Thread Group 1-1,text,true,,487,1162,1,1,http://10.17.175.19/demo/Account/login.aspx?logoff,1,0,0
+1584372563661,55,Open Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32311,363,1,1,null,0,322,0
+1584372563982,55,Open Home Page,200,OK,Thread Group 1-1,text,true,,32311,363,1,1,http://10.17.175.19/demo/,55,0,1
+1584372564038,11,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,5713,1400,1,1,null,0,693,0
+1584372564317,4,Login.Open,200,OK,Thread Group 1-1,text,true,,4543,381,1,1,http://10.17.175.19/demo/Account/login.aspx,3,0,0
+1584372564735,7,Login.Submit,302,Found,Thread Group 1-1,text,true,,1170,1019,1,1,http://10.17.175.19/demo/Account/login.aspx,7,0,0
+1584372564743,8,Open Admin Page,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,15116,2357,1,1,null,0,34,0
+1584372564760,3,Open Admin Page,200,OK,Thread Group 1-1,text,true,,8978,1169,1,1,http://10.17.175.19/demo/admin/,3,0,0
+1584372564779,5,Get users,200,OK,Thread Group 1-1,text,true,,6138,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,5,0,0
+1584372564794,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,490,1447,1,1,null,0,77,0
+1584372564870,4,Add User,201,Created,Thread Group 1-1,text,true,,490,1447,1,1,http://10.17.175.19/demo/api/users,4,0,0
+1584372564878,4,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,6590,1188,1,1,null,0,374,0
+1584372565251,4,Get users,200,OK,Thread Group 1-1,text,true,,6590,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1584372565256,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,490,1447,1,1,null,0,118,0
+1584372565374,4,Add User,201,Created,Thread Group 1-1,text,true,,490,1447,1,1,http://10.17.175.19/demo/api/users,4,0,0
+1584372565378,4,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,7042,1188,1,1,null,0,124,0
+1584372565502,4,Get users,200,OK,Thread Group 1-1,text,true,,7042,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1584372565507,5,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,139,0
+1584372565646,5,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,5,0,0
+1584372565651,5,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,6590,1188,1,1,null,0,851,0
+1584372566502,5,Get users,200,OK,Thread Group 1-1,text,true,,6590,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,5,0,0
+1584372566507,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,490,1447,1,1,null,0,376,0
+1584372566883,4,Add User,201,Created,Thread Group 1-1,text,true,,490,1447,1,1,http://10.17.175.19/demo/api/users,3,0,0
+1584372566887,3,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,7042,1188,1,1,null,0,461,0
+1584372567347,3,Get users,200,OK,Thread Group 1-1,text,true,,7042,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1584372567351,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,490,1447,1,1,null,0,196,0
+1584372567547,4,Add User,201,Created,Thread Group 1-1,text,true,,490,1447,1,1,http://10.17.175.19/demo/api/users,4,0,0
+1584372567551,4,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,7494,1188,1,1,null,0,606,0
+1584372568157,4,Get users,200,OK,Thread Group 1-1,text,true,,7494,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1584372568162,6,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,490,1447,1,1,null,0,654,0
+1584372568815,6,Add User,201,Created,Thread Group 1-1,text,true,,490,1447,1,1,http://10.17.175.19/demo/api/users,6,0,0
+1584372568822,4,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,7946,1188,1,1,null,0,346,0
+1584372569167,4,Get users,200,OK,Thread Group 1-1,text,true,,7946,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1584372569172,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,490,1447,1,1,null,0,109,0
+1584372569281,4,Add User,201,Created,Thread Group 1-1,text,true,,490,1447,1,1,http://10.17.175.19/demo/api/users,4,0,0
+1584372569285,4,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,8398,1188,1,1,null,0,98,0
+1584372569383,4,Get users,200,OK,Thread Group 1-1,text,true,,8398,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1584372569387,4,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,35,0
+1584372569422,4,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,4,0,0
+1584372569426,3,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,7946,1188,1,1,null,0,823,0
+1584372570248,3,Get users,200,OK,Thread Group 1-1,text,true,,7946,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1584372570252,3,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,46,0
+1584372570297,3,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,3,0,0
+1584372570301,3,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,7494,1188,1,1,null,0,398,0
+1584372570699,3,Get users,200,OK,Thread Group 1-1,text,true,,7494,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1584372570702,5,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,113,0
+1584372570815,5,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,5,0,0
+1584372570821,2,Logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,487,1162,1,1,null,0,168,0
+1584372570989,2,Logout,302,Found,Thread Group 1-1,text,true,,487,1162,1,1,http://10.17.175.19/demo/Account/login.aspx?logoff,2,0,0
+1584372655499,60,Open Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32311,363,1,1,null,0,206,0
+1584372655705,60,Open Home Page,200,OK,Thread Group 1-1,text,true,,32311,363,1,1,http://10.17.175.19/demo/,60,0,0
+1584372655765,5,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,5713,1404,1,1,null,0,126,0
+1584372655816,3,Login.Open,200,OK,Thread Group 1-1,text,true,,4543,381,1,1,http://10.17.175.19/demo/Account/login.aspx,3,0,0
+1584372655893,2,Login.Submit,302,Found,Thread Group 1-1,text,true,,1170,1023,1,1,http://10.17.175.19/demo/Account/login.aspx,2,0,0
+1584372655896,7,Open Admin Page,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,16020,2357,1,1,null,0,224,0
+1584372656053,3,Open Admin Page,200,OK,Thread Group 1-1,text,true,,8978,1169,1,1,http://10.17.175.19/demo/admin/,3,0,0
+1584372656122,4,Get users,200,OK,Thread Group 1-1,text,true,,7042,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1584372656135,5,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,75,0
+1584372656210,5,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,5,0,0
+1584372656219,3,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,6590,1188,1,1,null,0,511,0
+1584372656730,3,Get users,200,OK,Thread Group 1-1,text,true,,6590,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1584372656734,4,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,28,0
+1584372656762,4,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,4,0,0
+1584372656766,3,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,6138,1188,1,1,null,0,281,0
+1584372657046,3,Get users,200,OK,Thread Group 1-1,text,true,,6138,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1584372657050,4,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,127,0
+1584372657177,4,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,4,0,0
+1584372657181,3,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5686,1188,1,1,null,0,430,0
+1584372657610,3,Get users,200,OK,Thread Group 1-1,text,true,,5686,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1584372657614,6,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,186,0
+1584372657800,6,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,6,0,1
+1584372657806,4,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5234,1188,1,1,null,0,664,0
+1584372658470,4,Get users,200,OK,Thread Group 1-1,text,true,,5234,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1584372658475,3,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,490,1447,1,1,null,0,344,0
+1584372658819,3,Add User,201,Created,Thread Group 1-1,text,true,,490,1447,1,1,http://10.17.175.19/demo/api/users,3,0,0
+1584372658823,4,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5686,1188,1,1,null,0,537,0
+1584372659360,4,Get users,200,OK,Thread Group 1-1,text,true,,5686,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1584372659365,4,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,422,0
+1584372659787,4,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,4,0,0
+1584372659791,5,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5234,1188,1,1,null,0,396,0
+1584372660186,5,Get users,200,OK,Thread Group 1-1,text,true,,5234,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,5,0,1
+1584372660192,4,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,18,0
+1584372660210,4,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,4,0,0
+1584372660214,3,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4782,1188,1,1,null,0,162,0
+1584372660376,3,Get users,200,OK,Thread Group 1-1,text,true,,4782,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1584372660380,4,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1711,1,1,null,0,368,0
+1584372660748,4,Delete User,200,OK,Thread Group 1-1,,true,,182,1711,1,1,http://10.17.175.19/demo/api/users/processchecked/delete,4,0,0
+1584372660752,3,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4330,1188,1,1,null,0,350,0
+1584372661101,3,Get users,200,OK,Thread Group 1-1,text,true,,4330,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1584372661105,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,490,1447,1,1,null,0,387,0
+1584372661492,4,Add User,201,Created,Thread Group 1-1,text,true,,490,1447,1,1,http://10.17.175.19/demo/api/users,4,0,0
+1584372661496,4,Open Admin Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4782,1188,1,1,null,0,301,0
+1584372661797,4,Get users,200,OK,Thread Group 1-1,text,true,,4782,1188,1,1,http://10.17.175.19/demo/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1584372661801,3,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,490,1447,1,1,null,0,278,0
+1584372662079,3,Add User,201,Created,Thread Group 1-1,text,true,,490,1447,1,1,http://10.17.175.19/demo/api/users,3,0,0
+1584372662083,4,Logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,487,1162,1,1,null,0,231,0
+1584372662314,4,Logout,302,Found,Thread Group 1-1,text,true,,487,1162,1,1,http://10.17.175.19/demo/Account/login.aspx?logoff,4,0,1
