@@ -4,8 +4,7 @@
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
       <boolProp name="TestPlan.functional_mode">false</boolProp>
-      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
-      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">true</boolProp>
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
         <collectionProp name="Arguments.arguments">
           <elementProp name="DOMAIN" elementType="Argument">
@@ -662,11 +661,6 @@
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
-          <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Gaussian Random Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">1000.0</stringProp>
-            <stringProp name="RandomTimer.range">250.0</stringProp>
-          </GaussianRandomTimer>
-          <hashTree/>
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Admin Role Config" enabled="true">
             <stringProp name="filename">admin_role.csv</stringProp>
             <stringProp name="fileEncoding"></stringProp>
@@ -1130,11 +1124,6 @@
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
-          <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Gaussian Random Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">1000.0</stringProp>
-            <stringProp name="RandomTimer.range">250.0</stringProp>
-          </GaussianRandomTimer>
-          <hashTree/>
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Editor Role Config" enabled="true">
             <stringProp name="filename">editor_role.csv</stringProp>
             <stringProp name="fileEncoding"></stringProp>
@@ -1567,40 +1556,35 @@
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
-          <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Gaussian Random Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">1000.0</stringProp>
-            <stringProp name="RandomTimer.range">250.0</stringProp>
-          </GaussianRandomTimer>
-          <hashTree/>
           <com.blazemeter.jmeter.control.WeightedSwitchController guiclass="com.blazemeter.jmeter.control.WeightedSwitchControllerGui" testclass="com.blazemeter.jmeter.control.WeightedSwitchController" testname="Random Anonymous script" enabled="true">
             <boolProp name="IsRandomChoice">true</boolProp>
             <collectionProp name="Weights">
-              <collectionProp name="-1892534077">
+              <collectionProp name="262191963">
                 <stringProp name="-1955043590">Open Home Page</stringProp>
                 <stringProp name="1572">15</stringProp>
                 <stringProp name="3569038">true</stringProp>
               </collectionProp>
-              <collectionProp name="474087075">
+              <collectionProp name="-1682604508">
                 <stringProp name="-1322414027">Open Random Date</stringProp>
                 <stringProp name="1567">10</stringProp>
                 <stringProp name="3569038">true</stringProp>
               </collectionProp>
-              <collectionProp name="236594818">
+              <collectionProp name="695017827">
                 <stringProp name="-1269029934">Open Predefined Date</stringProp>
                 <stringProp name="1629">30</stringProp>
                 <stringProp name="3569038">true</stringProp>
               </collectionProp>
-              <collectionProp name="1682675372">
+              <collectionProp name="1645283265">
                 <stringProp name="1302304380">Search by Name</stringProp>
                 <stringProp name="1629">30</stringProp>
                 <stringProp name="3569038">true</stringProp>
               </collectionProp>
-              <collectionProp name="-1353397081">
+              <collectionProp name="-1324502417">
                 <stringProp name="400822073">Open Large Calendar</stringProp>
                 <stringProp name="1567">10</stringProp>
                 <stringProp name="3569038">true</stringProp>
               </collectionProp>
-              <collectionProp name="263871361">
+              <collectionProp name="-330580903">
                 <stringProp name="411443561">Open Contacts</stringProp>
                 <stringProp name="53">5</stringProp>
                 <stringProp name="3569038">true</stringProp>
