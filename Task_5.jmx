@@ -20,7 +20,7 @@
           </elementProp>
           <elementProp name="USERS_COUNT" elementType="Argument">
             <stringProp name="Argument.name">USERS_COUNT</stringProp>
-            <stringProp name="Argument.value">${__P(USERS_COUNT,1)}</stringProp>
+            <stringProp name="Argument.value">${__P(USERS_COUNT,2)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="RAMP_UP" elementType="Argument">

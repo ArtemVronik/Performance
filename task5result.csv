@@ -1865,3 +1865,517 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1584985988650,2,Edit page API,200,OK,Thread Group 1-1,text,true,,1094,1248,1,1,http://192.168.1.8/demo/api/posts/62b1e53c-94cd-4760-a02e-bd9482ea897e,2,0,0
 1584985988652,14,Logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32771,1451,1,1,null,0,121,0
 1584985988773,14,Logout,200,OK,Thread Group 1-1,text,true,,32771,1451,1,1,http://192.168.1.8/demo/,2,0,0
+1588234079844,17022,Open Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,22809,326,2,2,null,0,181,0
+1588234080024,17022,Open Home Page,200,OK,Thread Group 1-1,text,true,,22809,326,2,2,http://192.168.1.8/demo/,17022,0,9
+1588234080335,16615,Open Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32813,326,2,2,null,0,193,0
+1588234080528,16615,Open Home Page,200,OK,Thread Group 1-2,text,true,,32813,326,2,2,http://192.168.1.8/demo/,16614,0,1
+1588234097145,158,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,42239,2691,2,2,null,0,343,0
+1588234097378,5,Login.Open,200,OK,Thread Group 1-2,text,true,,4543,385,2,2,http://192.168.1.8/demo/Account/login.aspx,5,0,1
+1588234097492,153,Login.Submit,200,OK,Thread Group 1-2,text,true,,37696,2306,2,2,http://192.168.1.8/demo/,21,0,0
+1588234097054,179,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,42239,2703,2,2,null,0,438,0
+1588234097086,75,Login.Open,200,OK,Thread Group 1-1,text,true,,4543,385,2,2,http://192.168.1.8/demo/Account/login.aspx,75,0,1
+1588234097567,104,Login.Submit,200,OK,Thread Group 1-1,text,true,,37696,2318,2,2,http://192.168.1.8/demo/,5,0,0
+1588234097646,50,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,118,0
+1588234097760,50,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,49,0,0
+1588234097672,68,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,234,0
+1588234097904,68,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,68,0,0
+1588234097974,2180,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20755,2473,2,2,null,0,439,0
+1588234097814,2122,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20761,2473,2,2,null,0,657,0
+1588234098018,1724,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=7be28031-c7b3-49b3-b25d-ba4636b3396f,1724,0,0
+1588234098261,1481,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=8d29ad44-369e-4c7a-8e4b-5f16477ea484,1481,0,0
+1588234100136,456,Edit page API,200,OK,Thread Group 1-1,text,true,,767,1248,2,2,http://192.168.1.8/demo/api/posts/7be28031-c7b3-49b3-b25d-ba4636b3396f,456,0,1
+1588234099951,641,Edit page API,200,OK,Thread Group 1-2,text,true,,773,1248,2,2,http://192.168.1.8/demo/api/posts/8d29ad44-369e-4c7a-8e4b-5f16477ea484,641,0,1
+1588234100592,105,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,9,0
+1588234100601,105,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,104,0,0
+1588234100592,47,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,257,0
+1588234100849,47,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,47,0,0
+1588234100897,11,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20733,2473,2,2,null,0,248,0
+1588234100985,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=02334dd1-1c2f-4f30-ab05-7ce55310ced2,3,0,0
+1588234101148,8,Edit page API,200,OK,Thread Group 1-2,text,true,,745,1248,2,2,http://192.168.1.8/demo/api/posts/02334dd1-1c2f-4f30-ab05-7ce55310ced2,8,0,0
+1588234100706,7,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20746,2473,2,2,null,0,587,0
+1588234101069,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=2a231fb7-b4ce-4390-8924-bb9493ab150d,3,0,0
+1588234101296,4,Edit page API,200,OK,Thread Group 1-1,text,true,,758,1248,2,2,http://192.168.1.8/demo/api/posts/2a231fb7-b4ce-4390-8924-bb9493ab150d,4,0,0
+1588234101157,46,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,122,0
+1588234101278,46,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,46,0,0
+1588234101301,63,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,178,0
+1588234101478,63,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,63,0,0
+1588234101325,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20801,2473,2,2,null,0,564,0
+1588234101590,2,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=904793b7-9868-471c-99e1-d16af89efc54,2,0,0
+1588234101891,4,Edit page API,200,OK,Thread Group 1-2,text,true,,813,1248,2,2,http://192.168.1.8/demo/api/posts/904793b7-9868-471c-99e1-d16af89efc54,4,0,0
+1588234101895,64,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,141,0
+1588234102035,64,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,64,0,2
+1588234101542,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20809,2473,2,2,null,0,578,0
+1588234101772,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=c40c8de6-878a-4fd0-8d85-7b64b733f927,3,0,0
+1588234102123,3,Edit page API,200,OK,Thread Group 1-1,text,true,,821,1248,2,2,http://192.168.1.8/demo/api/posts/c40c8de6-878a-4fd0-8d85-7b64b733f927,3,0,0
+1588234102127,51,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,188,0
+1588234102314,51,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,51,0,1
+1588234102100,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20755,2473,2,2,null,0,748,0
+1588234102229,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=7be28031-c7b3-49b3-b25d-ba4636b3396f,3,0,0
+1588234102851,3,Edit page API,200,OK,Thread Group 1-2,text,true,,767,1248,2,2,http://192.168.1.8/demo/api/posts/7be28031-c7b3-49b3-b25d-ba4636b3396f,3,0,0
+1588234102366,7,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20733,2473,2,2,null,0,504,0
+1588234102620,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=02334dd1-1c2f-4f30-ab05-7ce55310ced2,3,0,0
+1588234102873,4,Edit page API,200,OK,Thread Group 1-1,text,true,,745,1248,2,2,http://192.168.1.8/demo/api/posts/02334dd1-1c2f-4f30-ab05-7ce55310ced2,4,0,0
+1588234102877,61,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,142,0
+1588234103018,61,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,61,0,0
+1588234102854,22,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,209,0
+1588234103062,22,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,22,0,0
+1588234103085,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20801,2473,2,2,null,0,229,0
+1588234103246,2,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=904793b7-9868-471c-99e1-d16af89efc54,2,0,0
+1588234103316,3,Edit page API,200,OK,Thread Group 1-2,text,true,,813,1248,2,2,http://192.168.1.8/demo/api/posts/904793b7-9868-471c-99e1-d16af89efc54,3,0,0
+1588234103080,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20733,2473,2,2,null,0,369,0
+1588234103432,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=02334dd1-1c2f-4f30-ab05-7ce55310ced2,3,0,0
+1588234103453,2,Edit page API,200,OK,Thread Group 1-1,text,true,,745,1248,2,2,http://192.168.1.8/demo/api/posts/02334dd1-1c2f-4f30-ab05-7ce55310ced2,2,0,0
+1588234103319,59,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,443,0
+1588234103763,59,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,59,0,0
+1588234103456,123,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,467,0
+1588234103922,123,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,123,0,0
+1588234104046,7,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20755,2473,2,2,null,0,451,0
+1588234104418,5,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=7be28031-c7b3-49b3-b25d-ba4636b3396f,5,0,1
+1588234104501,2,Edit page API,200,OK,Thread Group 1-1,text,true,,767,1248,2,2,http://192.168.1.8/demo/api/posts/7be28031-c7b3-49b3-b25d-ba4636b3396f,2,0,0
+1588234104504,53,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,11,0
+1588234104514,53,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,53,0,0
+1588234104568,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20809,2473,2,2,null,0,129,0
+1588234104606,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=c40c8de6-878a-4fd0-8d85-7b64b733f927,3,0,0
+1588234104699,2,Edit page API,200,OK,Thread Group 1-1,text,true,,821,1248,2,2,http://192.168.1.8/demo/api/posts/c40c8de6-878a-4fd0-8d85-7b64b733f927,2,0,0
+1588234103823,9,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20761,2473,2,2,null,0,889,0
+1588234104173,6,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=8d29ad44-369e-4c7a-8e4b-5f16477ea484,6,0,1
+1588234104717,3,Edit page API,200,OK,Thread Group 1-2,text,true,,773,1248,2,2,http://192.168.1.8/demo/api/posts/8d29ad44-369e-4c7a-8e4b-5f16477ea484,3,0,0
+1588234104721,50,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,159,0
+1588234104880,50,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,50,0,0
+1588234104930,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20746,2473,2,2,null,0,77,0
+1588234104946,2,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=2a231fb7-b4ce-4390-8924-bb9493ab150d,2,0,0
+1588234105009,3,Edit page API,200,OK,Thread Group 1-2,text,true,,758,1248,2,2,http://192.168.1.8/demo/api/posts/2a231fb7-b4ce-4390-8924-bb9493ab150d,3,0,0
+1588234105012,51,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,240,0
+1588234105252,51,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,51,0,0
+1588234104702,99,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,555,0
+1588234105257,99,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,99,0,0
+1588234105356,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20746,2473,2,2,null,0,393,0
+1588234105410,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=2a231fb7-b4ce-4390-8924-bb9493ab150d,3,0,0
+1588234105752,3,Edit page API,200,OK,Thread Group 1-1,text,true,,758,1248,2,2,http://192.168.1.8/demo/api/posts/2a231fb7-b4ce-4390-8924-bb9493ab150d,3,0,0
+1588234105303,8,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20761,2473,2,2,null,0,672,0
+1588234105676,4,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=8d29ad44-369e-4c7a-8e4b-5f16477ea484,4,0,0
+1588234105979,4,Edit page API,200,OK,Thread Group 1-2,text,true,,773,1248,2,2,http://192.168.1.8/demo/api/posts/8d29ad44-369e-4c7a-8e4b-5f16477ea484,4,0,0
+1588234105983,46,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,51,0
+1588234106033,46,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,46,0,0
+1588234105755,53,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,470,0
+1588234106225,53,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,53,0,0
+1588234106080,9,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20753,2473,2,2,null,0,199,0
+1588234106180,5,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=e91380ed-bbc9-4fa4-b0e0-e4d9da0a6d87,5,0,1
+1588234106284,4,Edit page API,200,OK,Thread Group 1-2,text,true,,765,1248,2,2,http://192.168.1.8/demo/api/posts/e91380ed-bbc9-4fa4-b0e0-e4d9da0a6d87,4,0,0
+1588234106288,49,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,55,0
+1588234106343,49,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,49,0,0
+1588234106278,9,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20753,2473,2,2,null,0,460,0
+1588234106719,6,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=e91380ed-bbc9-4fa4-b0e0-e4d9da0a6d87,6,0,1
+1588234106744,3,Edit page API,200,OK,Thread Group 1-1,text,true,,765,1248,2,2,http://192.168.1.8/demo/api/posts/e91380ed-bbc9-4fa4-b0e0-e4d9da0a6d87,3,0,0
+1588234106747,70,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,131,0
+1588234106878,70,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,70,0,0
+1588234106392,13,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20746,2473,2,2,null,0,577,0
+1588234106778,8,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=2a231fb7-b4ce-4390-8924-bb9493ab150d,7,0,0
+1588234106976,5,Edit page API,200,OK,Thread Group 1-2,text,true,,758,1248,2,2,http://192.168.1.8/demo/api/posts/2a231fb7-b4ce-4390-8924-bb9493ab150d,5,0,0
+1588234106948,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20761,2473,2,2,null,0,356,0
+1588234107013,4,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=8d29ad44-369e-4c7a-8e4b-5f16477ea484,4,0,0
+1588234107308,2,Edit page API,200,OK,Thread Group 1-1,text,true,,773,1248,2,2,http://192.168.1.8/demo/api/posts/8d29ad44-369e-4c7a-8e4b-5f16477ea484,2,0,0
+1588234106982,46,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,478,0
+1588234107459,46,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,46,0,0
+1588234107310,23,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,184,0
+1588234107494,23,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,23,0,0
+1588234107517,8,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20715,2473,2,2,null,0,195,0
+1588234107536,4,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=b65fa214-2e3b-468a-abf8-4fcf433059f9,4,0,0
+1588234107716,4,Edit page API,200,OK,Thread Group 1-1,text,true,,727,1248,2,2,http://192.168.1.8/demo/api/posts/b65fa214-2e3b-468a-abf8-4fcf433059f9,4,0,0
+1588234107720,59,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,107,0
+1588234107827,59,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,59,0,0
+1588234107506,7,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20733,2473,2,2,null,0,523,0
+1588234107771,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=02334dd1-1c2f-4f30-ab05-7ce55310ced2,3,0,0
+1588234108032,4,Edit page API,200,OK,Thread Group 1-2,text,true,,745,1248,2,2,http://192.168.1.8/demo/api/posts/02334dd1-1c2f-4f30-ab05-7ce55310ced2,4,0,0
+1588234107886,7,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20755,2473,2,2,null,0,239,0
+1588234108080,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=7be28031-c7b3-49b3-b25d-ba4636b3396f,3,0,0
+1588234108128,4,Edit page API,200,OK,Thread Group 1-1,text,true,,767,1248,2,2,http://192.168.1.8/demo/api/posts/7be28031-c7b3-49b3-b25d-ba4636b3396f,4,0,0
+1588234108036,46,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,124,0
+1588234108159,46,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,46,0,0
+1588234108132,44,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,133,0
+1588234108265,44,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,44,0,0
+1588234108310,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20755,2473,2,2,null,0,145,0
+1588234108335,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=7be28031-c7b3-49b3-b25d-ba4636b3396f,3,0,0
+1588234108458,3,Edit page API,200,OK,Thread Group 1-1,text,true,,767,1248,2,2,http://192.168.1.8/demo/api/posts/7be28031-c7b3-49b3-b25d-ba4636b3396f,3,0,0
+1588234108461,62,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,280,0
+1588234108741,62,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,62,0,1
+1588234108206,8,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20753,2473,2,2,null,0,688,0
+1588234108784,5,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=e91380ed-bbc9-4fa4-b0e0-e4d9da0a6d87,5,0,1
+1588234108899,3,Edit page API,200,OK,Thread Group 1-2,text,true,,765,1248,2,2,http://192.168.1.8/demo/api/posts/e91380ed-bbc9-4fa4-b0e0-e4d9da0a6d87,3,0,0
+1588234108902,80,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,324,0
+1588234109226,80,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,80,0,0
+1588234108803,7,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20715,2473,2,2,null,0,731,0
+1588234108868,4,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=b65fa214-2e3b-468a-abf8-4fcf433059f9,4,0,0
+1588234109538,3,Edit page API,200,OK,Thread Group 1-1,text,true,,727,1248,2,2,http://192.168.1.8/demo/api/posts/b65fa214-2e3b-468a-abf8-4fcf433059f9,3,0,0
+1588234109541,58,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,297,0
+1588234109837,58,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,58,0,0
+1588234109306,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20809,2473,2,2,null,0,599,0
+1588234109679,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=c40c8de6-878a-4fd0-8d85-7b64b733f927,3,0,0
+1588234109908,3,Edit page API,200,OK,Thread Group 1-2,text,true,,821,1248,2,2,http://192.168.1.8/demo/api/posts/c40c8de6-878a-4fd0-8d85-7b64b733f927,3,0,0
+1588234109911,60,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,214,0
+1588234110125,60,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,60,0,0
+1588234109896,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20761,2473,2,2,null,0,511,0
+1588234110213,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=8d29ad44-369e-4c7a-8e4b-5f16477ea484,3,0,0
+1588234110410,3,Edit page API,200,OK,Thread Group 1-1,text,true,,773,1248,2,2,http://192.168.1.8/demo/api/posts/8d29ad44-369e-4c7a-8e4b-5f16477ea484,3,0,0
+1588234110414,46,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,76,0
+1588234110489,46,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,46,0,0
+1588234110186,8,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20769,2473,2,2,null,0,603,0
+1588234110765,2,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=17bc272b-0b1f-45e8-9eec-eff79820f891,2,0,0
+1588234110791,6,Edit page API,200,OK,Thread Group 1-2,text,true,,781,1248,2,2,http://192.168.1.8/demo/api/posts/17bc272b-0b1f-45e8-9eec-eff79820f891,6,0,1
+1588234110797,44,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,160,0
+1588234110957,44,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,44,0,0
+1588234111001,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20715,2473,2,2,null,0,222,0
+1588234111106,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=b65fa214-2e3b-468a-abf8-4fcf433059f9,3,0,0
+1588234111226,2,Edit page API,200,OK,Thread Group 1-2,text,true,,727,1248,2,2,http://192.168.1.8/demo/api/posts/b65fa214-2e3b-468a-abf8-4fcf433059f9,2,0,0
+1588234110536,8,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20715,2473,2,2,null,0,829,0
+1588234110664,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=b65fa214-2e3b-468a-abf8-4fcf433059f9,3,0,0
+1588234111368,5,Edit page API,200,OK,Thread Group 1-1,text,true,,727,1248,2,2,http://192.168.1.8/demo/api/posts/b65fa214-2e3b-468a-abf8-4fcf433059f9,5,0,1
+1588234111228,52,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,313,0
+1588234111540,52,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,52,0,0
+1588234111373,62,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,178,0
+1588234111550,62,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,62,0,0
+1588234111613,12,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20801,2473,2,2,null,0,76,0
+1588234111625,5,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=904793b7-9868-471c-99e1-d16af89efc54,5,0,0
+1588234111694,7,Edit page API,200,OK,Thread Group 1-1,text,true,,813,1248,2,2,http://192.168.1.8/demo/api/posts/904793b7-9868-471c-99e1-d16af89efc54,7,0,0
+1588234111701,56,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,148,0
+1588234111849,56,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,56,0,0
+1588234111905,18,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20745,2473,2,2,null,0,95,0
+1588234111918,6,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=d4dd1d47-6910-4c7e-aaa4-5fb953234d04,6,0,0
+1588234112006,12,Edit page API,200,OK,Thread Group 1-1,text,true,,757,1248,2,2,http://192.168.1.8/demo/api/posts/d4dd1d47-6910-4c7e-aaa4-5fb953234d04,12,0,0
+1588234112018,46,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,106,0
+1588234112124,46,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,45,0,0
+1588234111593,7,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20733,2473,2,2,null,0,737,0
+1588234111964,5,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=02334dd1-1c2f-4f30-ab05-7ce55310ced2,4,0,0
+1588234112335,2,Edit page API,200,OK,Thread Group 1-2,text,true,,745,1248,2,2,http://192.168.1.8/demo/api/posts/02334dd1-1c2f-4f30-ab05-7ce55310ced2,2,0,0
+1588234112170,4,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20745,2473,2,2,null,0,395,0
+1588234112344,2,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=d4dd1d47-6910-4c7e-aaa4-5fb953234d04,2,0,0
+1588234112566,2,Edit page API,200,OK,Thread Group 1-1,text,true,,757,1248,2,2,http://192.168.1.8/demo/api/posts/d4dd1d47-6910-4c7e-aaa4-5fb953234d04,2,0,0
+1588234112337,50,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,195,0
+1588234112532,50,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,50,0,0
+1588234112582,10,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20769,2473,2,2,null,0,514,0
+1588234112928,7,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=17bc272b-0b1f-45e8-9eec-eff79820f891,7,0,1
+1588234113103,3,Edit page API,200,OK,Thread Group 1-2,text,true,,781,1248,2,2,http://192.168.1.8/demo/api/posts/17bc272b-0b1f-45e8-9eec-eff79820f891,3,0,0
+1588234112569,42,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,497,0
+1588234113066,42,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,42,0,0
+1588234113106,62,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,132,0
+1588234113238,62,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,62,0,0
+1588234113300,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20761,2473,2,2,null,0,62,0
+1588234113311,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=8d29ad44-369e-4c7a-8e4b-5f16477ea484,3,0,0
+1588234113365,3,Edit page API,200,OK,Thread Group 1-2,text,true,,773,1248,2,2,http://192.168.1.8/demo/api/posts/8d29ad44-369e-4c7a-8e4b-5f16477ea484,3,0,0
+1588234113368,65,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,86,0
+1588234113454,65,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,65,0,0
+1588234113109,9,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20733,2473,2,2,null,0,723,0
+1588234113727,6,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=02334dd1-1c2f-4f30-ab05-7ce55310ced2,6,0,1
+1588234113838,3,Edit page API,200,OK,Thread Group 1-1,text,true,,745,1248,2,2,http://192.168.1.8/demo/api/posts/02334dd1-1c2f-4f30-ab05-7ce55310ced2,3,0,0
+1588234113841,72,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,103,0
+1588234113944,72,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,71,0,0
+1588234113519,11,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20715,2473,2,2,null,0,713,0
+1588234113838,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=b65fa214-2e3b-468a-abf8-4fcf433059f9,3,0,0
+1588234114235,8,Edit page API,200,OK,Thread Group 1-2,text,true,,727,1248,2,2,http://192.168.1.8/demo/api/posts/b65fa214-2e3b-468a-abf8-4fcf433059f9,8,0,0
+1588234114243,49,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,13,0
+1588234114256,49,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,49,0,0
+1588234114016,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20809,2473,2,2,null,0,537,0
+1588234114491,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=c40c8de6-878a-4fd0-8d85-7b64b733f927,3,0,0
+1588234114556,3,Edit page API,200,OK,Thread Group 1-1,text,true,,821,1248,2,2,http://192.168.1.8/demo/api/posts/c40c8de6-878a-4fd0-8d85-7b64b733f927,3,0,0
+1588234114305,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20761,2473,2,2,null,0,536,0
+1588234114611,2,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=8d29ad44-369e-4c7a-8e4b-5f16477ea484,2,0,0
+1588234114842,3,Edit page API,200,OK,Thread Group 1-2,text,true,,773,1248,2,2,http://192.168.1.8/demo/api/posts/8d29ad44-369e-4c7a-8e4b-5f16477ea484,3,0,0
+1588234114846,64,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,150,0
+1588234114995,64,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,64,0,1
+1588234114559,52,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,505,0
+1588234115064,52,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,52,0,0
+1588234115060,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20761,2473,2,2,null,0,240,0
+1588234115129,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=8d29ad44-369e-4c7a-8e4b-5f16477ea484,3,0,0
+1588234115303,3,Edit page API,200,OK,Thread Group 1-2,text,true,,773,1248,2,2,http://192.168.1.8/demo/api/posts/8d29ad44-369e-4c7a-8e4b-5f16477ea484,3,0,0
+1588234115306,53,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,50,0
+1588234115355,53,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,53,0,0
+1588234115116,20,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20761,2473,2,2,null,0,426,0
+1588234115373,8,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=8d29ad44-369e-4c7a-8e4b-5f16477ea484,8,0,0
+1588234115549,12,Edit page API,200,OK,Thread Group 1-1,text,true,,773,1248,2,2,http://192.168.1.8/demo/api/posts/8d29ad44-369e-4c7a-8e4b-5f16477ea484,12,0,0
+1588234115562,56,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,488,0
+1588234116049,56,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,56,0,0
+1588234115409,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20769,2473,2,2,null,0,780,0
+1588234116100,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=17bc272b-0b1f-45e8-9eec-eff79820f891,3,0,0
+1588234116191,2,Edit page API,200,OK,Thread Group 1-2,text,true,,781,1248,2,2,http://192.168.1.8/demo/api/posts/17bc272b-0b1f-45e8-9eec-eff79820f891,2,0,0
+1588234116194,54,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,109,0
+1588234116303,54,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,54,0,0
+1588234116106,24,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20755,2473,2,2,null,0,659,0
+1588234116306,20,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=7be28031-c7b3-49b3-b25d-ba4636b3396f,20,0,0
+1588234116785,4,Edit page API,200,OK,Thread Group 1-1,text,true,,767,1248,2,2,http://192.168.1.8/demo/api/posts/7be28031-c7b3-49b3-b25d-ba4636b3396f,3,0,0
+1588234116357,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20753,2473,2,2,null,0,544,0
+1588234116498,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=e91380ed-bbc9-4fa4-b0e0-e4d9da0a6d87,3,0,0
+1588234116904,3,Edit page API,200,OK,Thread Group 1-2,text,true,,765,1248,2,2,http://192.168.1.8/demo/api/posts/e91380ed-bbc9-4fa4-b0e0-e4d9da0a6d87,3,0,0
+1588234116789,48,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,172,0
+1588234116961,48,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,47,0,0
+1588234116907,61,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,98,0
+1588234117005,61,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,61,0,1
+1588234117009,22,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20733,2473,2,2,null,0,189,0
+1588234117048,20,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=02334dd1-1c2f-4f30-ab05-7ce55310ced2,20,0,0
+1588234117218,2,Edit page API,200,OK,Thread Group 1-1,text,true,,745,1248,2,2,http://192.168.1.8/demo/api/posts/02334dd1-1c2f-4f30-ab05-7ce55310ced2,2,0,0
+1588234117067,17,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20761,2473,2,2,null,0,258,0
+1588234117191,14,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=8d29ad44-369e-4c7a-8e4b-5f16477ea484,14,0,0
+1588234117339,3,Edit page API,200,OK,Thread Group 1-2,text,true,,773,1248,2,2,http://192.168.1.8/demo/api/posts/8d29ad44-369e-4c7a-8e4b-5f16477ea484,3,0,0
+1588234117220,50,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,422,0
+1588234117641,50,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,50,0,0
+1588234117342,51,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,320,0
+1588234117661,51,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,51,0,0
+1588234117713,10,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20769,2473,2,2,null,0,106,0
+1588234117756,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=17bc272b-0b1f-45e8-9eec-eff79820f891,3,0,0
+1588234117822,7,Edit page API,200,OK,Thread Group 1-2,text,true,,781,1248,2,2,http://192.168.1.8/demo/api/posts/17bc272b-0b1f-45e8-9eec-eff79820f891,7,0,0
+1588234117829,57,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,509,0
+1588234118338,57,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,57,0,0
+1588234117692,9,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20746,2473,2,2,null,0,774,0
+1588234118356,7,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=2a231fb7-b4ce-4390-8924-bb9493ab150d,6,0,2
+1588234118472,2,Edit page API,200,OK,Thread Group 1-1,text,true,,758,1248,2,2,http://192.168.1.8/demo/api/posts/2a231fb7-b4ce-4390-8924-bb9493ab150d,2,0,0
+1588234118475,51,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,63,0
+1588234118538,51,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,51,0,0
+1588234118589,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20753,2473,2,2,null,0,278,0
+1588234118843,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=e91380ed-bbc9-4fa4-b0e0-e4d9da0a6d87,3,0,0
+1588234118869,2,Edit page API,200,OK,Thread Group 1-1,text,true,,765,1248,2,2,http://192.168.1.8/demo/api/posts/e91380ed-bbc9-4fa4-b0e0-e4d9da0a6d87,2,0,0
+1588234118872,46,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,135,0
+1588234119007,46,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,46,0,0
+1588234118395,8,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20755,2473,2,2,null,0,953,0
+1588234118601,2,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=7be28031-c7b3-49b3-b25d-ba4636b3396f,2,0,0
+1588234119349,6,Edit page API,200,OK,Thread Group 1-2,text,true,,767,1248,2,2,http://192.168.1.8/demo/api/posts/7be28031-c7b3-49b3-b25d-ba4636b3396f,6,0,2
+1588234119356,44,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,40,0
+1588234119396,44,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,44,0,0
+1588234119054,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20809,2473,2,2,null,0,589,0
+1588234119208,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=c40c8de6-878a-4fd0-8d85-7b64b733f927,3,0,0
+1588234119646,2,Edit page API,200,OK,Thread Group 1-1,text,true,,821,1248,2,2,http://192.168.1.8/demo/api/posts/c40c8de6-878a-4fd0-8d85-7b64b733f927,2,0,0
+1588234119440,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20801,2473,2,2,null,0,355,0
+1588234119650,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=904793b7-9868-471c-99e1-d16af89efc54,3,0,0
+1588234119798,3,Edit page API,200,OK,Thread Group 1-2,text,true,,813,1248,2,2,http://192.168.1.8/demo/api/posts/904793b7-9868-471c-99e1-d16af89efc54,3,0,0
+1588234119648,52,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,275,0
+1588234119923,52,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,52,0,0
+1588234119975,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20745,2473,2,2,null,0,97,0
+1588234120071,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=d4dd1d47-6910-4c7e-aaa4-5fb953234d04,3,0,0
+1588234120075,2,Edit page API,200,OK,Thread Group 1-1,text,true,,757,1248,2,2,http://192.168.1.8/demo/api/posts/d4dd1d47-6910-4c7e-aaa4-5fb953234d04,2,0,0
+1588234120078,42,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,36,0
+1588234120114,42,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,42,0,0
+1588234120157,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20809,2473,2,2,null,0,162,0
+1588234120258,4,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=c40c8de6-878a-4fd0-8d85-7b64b733f927,4,0,0
+1588234120322,2,Edit page API,200,OK,Thread Group 1-1,text,true,,821,1248,2,2,http://192.168.1.8/demo/api/posts/c40c8de6-878a-4fd0-8d85-7b64b733f927,2,0,0
+1588234119801,52,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,577,0
+1588234120378,52,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,52,0,0
+1588234120325,51,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,292,0
+1588234120616,51,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,51,0,1
+1588234120668,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20715,2473,2,2,null,0,212,0
+1588234120713,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=b65fa214-2e3b-468a-abf8-4fcf433059f9,3,0,0
+1588234120883,3,Edit page API,200,OK,Thread Group 1-1,text,true,,727,1248,2,2,http://192.168.1.8/demo/api/posts/b65fa214-2e3b-468a-abf8-4fcf433059f9,3,0,0
+1588234120430,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20769,2473,2,2,null,0,496,0
+1588234120733,2,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=17bc272b-0b1f-45e8-9eec-eff79820f891,2,0,0
+1588234120928,3,Edit page API,200,OK,Thread Group 1-2,text,true,,781,1248,2,2,http://192.168.1.8/demo/api/posts/17bc272b-0b1f-45e8-9eec-eff79820f891,3,0,0
+1588234120886,46,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,221,0
+1588234121107,46,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,45,0,0
+1588234120931,52,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,216,0
+1588234121146,52,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,52,0,0
+1588234121153,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20761,2473,2,2,null,0,328,0
+1588234121476,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=8d29ad44-369e-4c7a-8e4b-5f16477ea484,3,0,0
+1588234121484,3,Edit page API,200,OK,Thread Group 1-1,text,true,,773,1248,2,2,http://192.168.1.8/demo/api/posts/8d29ad44-369e-4c7a-8e4b-5f16477ea484,3,0,0
+1588234121487,49,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,69,0
+1588234121556,49,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,49,0,0
+1588234121199,8,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20801,2473,2,2,null,0,597,0
+1588234121442,5,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=904793b7-9868-471c-99e1-d16af89efc54,5,0,1
+1588234121801,3,Edit page API,200,OK,Thread Group 1-2,text,true,,813,1248,2,2,http://192.168.1.8/demo/api/posts/904793b7-9868-471c-99e1-d16af89efc54,3,0,0
+1588234121804,50,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,11,0
+1588234121814,50,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,50,0,0
+1588234121605,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20745,2473,2,2,null,0,625,0
+1588234121836,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=d4dd1d47-6910-4c7e-aaa4-5fb953234d04,3,0,0
+1588234122233,3,Edit page API,200,OK,Thread Group 1-1,text,true,,757,1248,2,2,http://192.168.1.8/demo/api/posts/d4dd1d47-6910-4c7e-aaa4-5fb953234d04,3,0,0
+1588234121865,4,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20809,2473,2,2,null,0,545,0
+1588234122141,2,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=c40c8de6-878a-4fd0-8d85-7b64b733f927,2,0,0
+1588234122412,2,Edit page API,200,OK,Thread Group 1-2,text,true,,821,1248,2,2,http://192.168.1.8/demo/api/posts/c40c8de6-878a-4fd0-8d85-7b64b733f927,2,0,0
+1588234122414,59,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,335,0
+1588234122749,59,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,59,0,0
+1588234122236,50,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,647,0
+1588234122883,50,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,50,0,1
+1588234122933,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20733,2473,2,2,null,0,343,0
+1588234123092,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=02334dd1-1c2f-4f30-ab05-7ce55310ced2,3,0,0
+1588234123279,3,Edit page API,200,OK,Thread Group 1-1,text,true,,745,1248,2,2,http://192.168.1.8/demo/api/posts/02334dd1-1c2f-4f30-ab05-7ce55310ced2,3,0,0
+1588234122808,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20761,2473,2,2,null,0,601,0
+1588234123291,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=8d29ad44-369e-4c7a-8e4b-5f16477ea484,3,0,0
+1588234123413,2,Edit page API,200,OK,Thread Group 1-2,text,true,,773,1248,2,2,http://192.168.1.8/demo/api/posts/8d29ad44-369e-4c7a-8e4b-5f16477ea484,2,0,0
+1588234123282,51,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,86,0
+1588234123368,51,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,51,0,0
+1588234123416,54,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,277,0
+1588234123692,54,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,54,0,1
+1588234123747,12,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20761,2473,2,2,null,0,264,0
+1588234123961,5,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=8d29ad44-369e-4c7a-8e4b-5f16477ea484,5,0,0
+1588234124016,7,Edit page API,200,OK,Thread Group 1-2,text,true,,773,1248,2,2,http://192.168.1.8/demo/api/posts/8d29ad44-369e-4c7a-8e4b-5f16477ea484,7,0,0
+1588234124023,70,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,57,0
+1588234124080,70,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,70,0,0
+1588234123420,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20809,2473,2,2,null,0,843,0
+1588234123521,2,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=c40c8de6-878a-4fd0-8d85-7b64b733f927,2,0,0
+1588234124265,3,Edit page API,200,OK,Thread Group 1-1,text,true,,821,1248,2,2,http://192.168.1.8/demo/api/posts/c40c8de6-878a-4fd0-8d85-7b64b733f927,3,0,0
+1588234124150,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20769,2473,2,2,null,0,195,0
+1588234124338,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=17bc272b-0b1f-45e8-9eec-eff79820f891,3,0,0
+1588234124348,3,Edit page API,200,OK,Thread Group 1-2,text,true,,781,1248,2,2,http://192.168.1.8/demo/api/posts/17bc272b-0b1f-45e8-9eec-eff79820f891,3,0,0
+1588234124268,74,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,165,0
+1588234124433,74,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,74,0,0
+1588234124351,64,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,195,0
+1588234124546,64,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,64,0,0
+1588234124507,11,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20733,2473,2,2,null,0,295,0
+1588234124604,8,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=02334dd1-1c2f-4f30-ab05-7ce55310ced2,8,0,0
+1588234124810,3,Edit page API,200,OK,Thread Group 1-1,text,true,,745,1248,2,2,http://192.168.1.8/demo/api/posts/02334dd1-1c2f-4f30-ab05-7ce55310ced2,3,0,0
+1588234124813,48,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,49,0
+1588234124862,48,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,47,0,0
+1588234124610,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20715,2473,2,2,null,0,404,0
+1588234124614,4,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=b65fa214-2e3b-468a-abf8-4fcf433059f9,4,0,0
+1588234125018,2,Edit page API,200,OK,Thread Group 1-2,text,true,,727,1248,2,2,http://192.168.1.8/demo/api/posts/b65fa214-2e3b-468a-abf8-4fcf433059f9,2,0,0
+1588234125020,49,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,227,0
+1588234125246,49,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,49,0,0
+1588234124910,16,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20746,2473,2,2,null,0,563,0
+1588234125256,14,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=2a231fb7-b4ce-4390-8924-bb9493ab150d,14,0,0
+1588234125487,2,Edit page API,200,OK,Thread Group 1-1,text,true,,758,1248,2,2,http://192.168.1.8/demo/api/posts/2a231fb7-b4ce-4390-8924-bb9493ab150d,2,0,0
+1588234125489,59,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,353,0
+1588234125842,59,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,59,0,0
+1588234125296,8,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20801,2473,2,2,null,0,906,0
+1588234125912,5,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=904793b7-9868-471c-99e1-d16af89efc54,5,0,1
+1588234126207,3,Edit page API,200,OK,Thread Group 1-2,text,true,,813,1248,2,2,http://192.168.1.8/demo/api/posts/904793b7-9868-471c-99e1-d16af89efc54,3,0,0
+1588234125901,7,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20733,2473,2,2,null,0,311,0
+1588234125985,4,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=02334dd1-1c2f-4f30-ab05-7ce55310ced2,4,0,0
+1588234126216,3,Edit page API,200,OK,Thread Group 1-1,text,true,,745,1248,2,2,http://192.168.1.8/demo/api/posts/02334dd1-1c2f-4f30-ab05-7ce55310ced2,3,0,0
+1588234126219,55,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,34,0
+1588234126253,55,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,55,0,0
+1588234126308,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20755,2473,2,2,null,0,61,0
+1588234126354,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=7be28031-c7b3-49b3-b25d-ba4636b3396f,3,0,0
+1588234126372,2,Edit page API,200,OK,Thread Group 1-1,text,true,,767,1248,2,2,http://192.168.1.8/demo/api/posts/7be28031-c7b3-49b3-b25d-ba4636b3396f,2,0,0
+1588234126211,45,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,177,0
+1588234126388,45,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,44,0,0
+1588234126374,58,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,104,0
+1588234126477,58,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,58,0,0
+1588234126536,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20761,2473,2,2,null,0,413,0
+1588234126759,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=8d29ad44-369e-4c7a-8e4b-5f16477ea484,3,0,0
+1588234126952,2,Edit page API,200,OK,Thread Group 1-1,text,true,,773,1248,2,2,http://192.168.1.8/demo/api/posts/8d29ad44-369e-4c7a-8e4b-5f16477ea484,2,0,0
+1588234126433,7,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20753,2473,2,2,null,0,568,0
+1588234126615,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=e91380ed-bbc9-4fa4-b0e0-e4d9da0a6d87,3,0,0
+1588234127004,4,Edit page API,200,OK,Thread Group 1-2,text,true,,765,1248,2,2,http://192.168.1.8/demo/api/posts/e91380ed-bbc9-4fa4-b0e0-e4d9da0a6d87,4,0,0
+1588234127008,41,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,62,0
+1588234127070,41,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,41,0,0
+1588234126954,64,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,105,0
+1588234127059,64,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,64,0,0
+1588234127123,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20746,2473,2,2,null,0,107,0
+1588234127174,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=2a231fb7-b4ce-4390-8924-bb9493ab150d,3,0,0
+1588234127233,3,Edit page API,200,OK,Thread Group 1-1,text,true,,758,1248,2,2,http://192.168.1.8/demo/api/posts/2a231fb7-b4ce-4390-8924-bb9493ab150d,3,0,0
+1588234127236,46,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,140,0
+1588234127376,46,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,46,0,0
+1588234127111,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20715,2473,2,2,null,0,475,0
+1588234127358,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=b65fa214-2e3b-468a-abf8-4fcf433059f9,3,0,0
+1588234127589,3,Edit page API,200,OK,Thread Group 1-2,text,true,,727,1248,2,2,http://192.168.1.8/demo/api/posts/b65fa214-2e3b-468a-abf8-4fcf433059f9,3,0,0
+1588234127592,45,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,267,0
+1588234127858,45,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,45,0,0
+1588234127422,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20715,2473,2,2,null,0,485,0
+1588234127621,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=b65fa214-2e3b-468a-abf8-4fcf433059f9,3,0,0
+1588234127910,3,Edit page API,200,OK,Thread Group 1-1,text,true,,727,1248,2,2,http://192.168.1.8/demo/api/posts/b65fa214-2e3b-468a-abf8-4fcf433059f9,3,0,0
+1588234127904,7,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20745,2473,2,2,null,0,182,0
+1588234128025,4,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=d4dd1d47-6910-4c7e-aaa4-5fb953234d04,4,0,1
+1588234128090,3,Edit page API,200,OK,Thread Group 1-2,text,true,,757,1248,2,2,http://192.168.1.8/demo/api/posts/d4dd1d47-6910-4c7e-aaa4-5fb953234d04,3,0,0
+1588234127913,48,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,248,0
+1588234128161,48,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,48,0,0
+1588234128093,45,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,385,0
+1588234128477,45,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,45,0,0
+1588234128209,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20715,2473,2,2,null,0,399,0
+1588234128519,2,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=b65fa214-2e3b-468a-abf8-4fcf433059f9,2,0,0
+1588234128609,3,Edit page API,200,OK,Thread Group 1-1,text,true,,727,1248,2,2,http://192.168.1.8/demo/api/posts/b65fa214-2e3b-468a-abf8-4fcf433059f9,3,0,0
+1588234128612,46,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,142,0
+1588234128753,46,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,46,0,0
+1588234128522,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20769,2473,2,2,null,0,526,0
+1588234128987,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=17bc272b-0b1f-45e8-9eec-eff79820f891,3,0,0
+1588234129050,2,Edit page API,200,OK,Thread Group 1-2,text,true,,781,1248,2,2,http://192.168.1.8/demo/api/posts/17bc272b-0b1f-45e8-9eec-eff79820f891,2,0,0
+1588234129053,53,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,33,0
+1588234129086,53,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,53,0,0
+1588234128800,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20769,2473,2,2,null,0,372,0
+1588234128964,2,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=17bc272b-0b1f-45e8-9eec-eff79820f891,2,0,0
+1588234129174,3,Edit page API,200,OK,Thread Group 1-1,text,true,,781,1248,2,2,http://192.168.1.8/demo/api/posts/17bc272b-0b1f-45e8-9eec-eff79820f891,3,0,0
+1588234129139,4,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20755,2473,2,2,null,0,228,0
+1588234129227,2,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=7be28031-c7b3-49b3-b25d-ba4636b3396f,2,0,0
+1588234129369,2,Edit page API,200,OK,Thread Group 1-2,text,true,,767,1248,2,2,http://192.168.1.8/demo/api/posts/7be28031-c7b3-49b3-b25d-ba4636b3396f,2,0,0
+1588234129177,55,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,168,0
+1588234129345,55,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,55,0,0
+1588234129371,43,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,208,0
+1588234129578,43,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,43,0,0
+1588234129622,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20715,2473,2,2,null,0,111,0
+1588234129625,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=b65fa214-2e3b-468a-abf8-4fcf433059f9,3,0,0
+1588234129736,2,Edit page API,200,OK,Thread Group 1-2,text,true,,727,1248,2,2,http://192.168.1.8/demo/api/posts/b65fa214-2e3b-468a-abf8-4fcf433059f9,2,0,0
+1588234129400,9,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20746,2473,2,2,null,0,647,0
+1588234129751,6,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=2a231fb7-b4ce-4390-8924-bb9493ab150d,6,0,1
+1588234130053,3,Edit page API,200,OK,Thread Group 1-1,text,true,,758,1248,2,2,http://192.168.1.8/demo/api/posts/2a231fb7-b4ce-4390-8924-bb9493ab150d,3,0,0
+1588234130056,44,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,171,0
+1588234130227,44,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,43,0,0
+1588234130271,12,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20733,2473,2,2,null,0,146,0
+1588234130343,4,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=02334dd1-1c2f-4f30-ab05-7ce55310ced2,4,0,0
+1588234130421,8,Edit page API,200,OK,Thread Group 1-1,text,true,,745,1248,2,2,http://192.168.1.8/demo/api/posts/02334dd1-1c2f-4f30-ab05-7ce55310ced2,8,0,0
+1588234129738,51,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,648,0
+1588234130386,51,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,51,0,2
+1588234130429,55,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,104,0
+1588234130533,55,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,54,0,0
+1588234130438,11,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20755,2473,2,2,null,0,531,0
+1588234130866,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=7be28031-c7b3-49b3-b25d-ba4636b3396f,3,0,0
+1588234130972,8,Edit page API,200,OK,Thread Group 1-2,text,true,,767,1248,2,2,http://192.168.1.8/demo/api/posts/7be28031-c7b3-49b3-b25d-ba4636b3396f,8,0,0
+1588234130980,44,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,256,0
+1588234131236,44,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,44,0,0
+1588234131280,6,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20745,2473,2,2,null,0,189,0
+1588234131460,4,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=d4dd1d47-6910-4c7e-aaa4-5fb953234d04,4,0,0
+1588234131472,2,Edit page API,200,OK,Thread Group 1-2,text,true,,757,1248,2,2,http://192.168.1.8/demo/api/posts/d4dd1d47-6910-4c7e-aaa4-5fb953234d04,2,0,0
+1588234130588,4,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20746,2473,2,2,null,0,893,0
+1588234131016,2,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=2a231fb7-b4ce-4390-8924-bb9493ab150d,2,0,0
+1588234131483,2,Edit page API,200,OK,Thread Group 1-1,text,true,,758,1248,2,2,http://192.168.1.8/demo/api/posts/2a231fb7-b4ce-4390-8924-bb9493ab150d,2,0,0
+1588234131475,50,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,11,0
+1588234131486,50,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,50,0,0
+1588234131485,58,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,99,0
+1588234131584,58,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,58,0,0
+1588234131536,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20761,2473,2,2,null,0,479,0
+1588234131689,2,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=8d29ad44-369e-4c7a-8e4b-5f16477ea484,2,0,0
+1588234132017,3,Edit page API,200,OK,Thread Group 1-2,text,true,,773,1248,2,2,http://192.168.1.8/demo/api/posts/8d29ad44-369e-4c7a-8e4b-5f16477ea484,3,0,0
+1588234132020,47,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,18,0
+1588234132038,47,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,47,0,0
+1588234131642,7,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20769,2473,2,2,null,0,707,0
+1588234131872,4,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=17bc272b-0b1f-45e8-9eec-eff79820f891,4,0,1
+1588234132353,3,Edit page API,200,OK,Thread Group 1-1,text,true,,781,1248,2,2,http://192.168.1.8/demo/api/posts/17bc272b-0b1f-45e8-9eec-eff79820f891,3,0,0
+1588234132085,10,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20753,2473,2,2,null,0,354,0
+1588234132435,7,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=e91380ed-bbc9-4fa4-b0e0-e4d9da0a6d87,7,0,1
+1588234132445,3,Edit page API,200,OK,Thread Group 1-2,text,true,,765,1248,2,2,http://192.168.1.8/demo/api/posts/e91380ed-bbc9-4fa4-b0e0-e4d9da0a6d87,3,0,0
+1588234132356,51,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,77,0
+1588234132432,51,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,51,0,0
+1588234132484,4,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20745,2473,2,2,null,0,188,0
+1588234132645,2,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=d4dd1d47-6910-4c7e-aaa4-5fb953234d04,2,0,0
+1588234132674,2,Edit page API,200,OK,Thread Group 1-1,text,true,,757,1248,2,2,http://192.168.1.8/demo/api/posts/d4dd1d47-6910-4c7e-aaa4-5fb953234d04,2,0,0
+1588234132449,45,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,517,0
+1588234132966,45,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,45,0,0
+1588234132676,48,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,333,0
+1588234133008,48,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,48,0,0
+1588234133057,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20733,2473,2,2,null,0,71,0
+1588234133071,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=02334dd1-1c2f-4f30-ab05-7ce55310ced2,3,0,0
+1588234133131,2,Edit page API,200,OK,Thread Group 1-1,text,true,,745,1248,2,2,http://192.168.1.8/demo/api/posts/02334dd1-1c2f-4f30-ab05-7ce55310ced2,2,0,0
+1588234133134,50,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32733,1171,2,2,null,0,0,0
+1588234133134,50,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,50,0,0
+1588234133184,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,20733,2473,2,2,null,0,100,0
+1588234133262,3,Edit page,200,OK,Thread Group 1-1,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=02334dd1-1c2f-4f30-ab05-7ce55310ced2,3,0,0
+1588234133287,2,Edit page API,200,OK,Thread Group 1-1,text,true,,745,1248,2,2,http://192.168.1.8/demo/api/posts/02334dd1-1c2f-4f30-ab05-7ce55310ced2,2,0,0
+1588234133012,9,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20746,2473,2,2,null,0,428,0
+1588234133053,5,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,2,2,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=2a231fb7-b4ce-4390-8924-bb9493ab150d,5,0,0
+1588234133446,4,Edit page API,200,OK,Thread Group 1-2,text,true,,758,1248,2,2,http://192.168.1.8/demo/api/posts/2a231fb7-b4ce-4390-8924-bb9493ab150d,4,0,0
+1588234133450,50,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,2,2,null,0,322,0
+1588234133772,50,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,2,2,http://192.168.1.8/demo/2019/09/10/default,50,0,0
+1588234133289,86,Logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,33298,1451,2,2,null,0,551,0
+1588234133841,86,Logout,200,OK,Thread Group 1-1,text,true,,33298,1451,2,2,http://192.168.1.8/demo/,4,0,0
+1588234133822,9,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20769,2473,1,1,null,0,874,0
+1588234134337,4,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,1,1,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=17bc272b-0b1f-45e8-9eec-eff79820f891,4,0,0
+1588234134700,5,Edit page API,200,OK,Thread Group 1-2,text,true,,781,1248,1,1,http://192.168.1.8/demo/api/posts/17bc272b-0b1f-45e8-9eec-eff79820f891,5,0,1
+1588234134705,52,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,1,1,null,0,207,0
+1588234134912,52,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,1,1,http://192.168.1.8/demo/2019/09/10/default,52,0,0
+1588234134964,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20761,2473,1,1,null,0,587,0
+1588234135114,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,1,1,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=8d29ad44-369e-4c7a-8e4b-5f16477ea484,3,0,0
+1588234135554,2,Edit page API,200,OK,Thread Group 1-2,text,true,,773,1248,1,1,http://192.168.1.8/demo/api/posts/8d29ad44-369e-4c7a-8e4b-5f16477ea484,2,0,0
+1588234135557,47,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,1,1,null,0,182,0
+1588234135739,47,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,1,1,http://192.168.1.8/demo/2019/09/10/default,47,0,0
+1588234135786,5,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20801,2473,1,1,null,0,65,0
+1588234135812,3,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,1,1,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=904793b7-9868-471c-99e1-d16af89efc54,3,0,0
+1588234135854,2,Edit page API,200,OK,Thread Group 1-2,text,true,,813,1248,1,1,http://192.168.1.8/demo/api/posts/904793b7-9868-471c-99e1-d16af89efc54,2,0,0
+1588234135856,47,Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32733,1171,1,1,null,0,184,0
+1588234136040,47,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32733,1171,1,1,http://192.168.1.8/demo/2019/09/10/default,47,0,0
+1588234136087,4,Edit,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,20755,2473,1,1,null,0,516,0
+1588234136567,2,Edit page,200,OK,Thread Group 1-2,text,true,,19988,1225,1,1,http://192.168.1.8/demo/admin/app/editor/editpost.cshtml?id=7be28031-c7b3-49b3-b25d-ba4636b3396f,2,0,0
+1588234136604,2,Edit page API,200,OK,Thread Group 1-2,text,true,,767,1248,1,1,http://192.168.1.8/demo/api/posts/7be28031-c7b3-49b3-b25d-ba4636b3396f,2,0,0
+1588234136607,67,Logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,33298,1451,1,1,null,0,92,0
+1588234136699,67,Logout,200,OK,Thread Group 1-2,text,true,,33298,1451,1,1,http://192.168.1.8/demo/,2,0,0
