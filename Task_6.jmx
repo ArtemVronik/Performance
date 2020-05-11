@@ -20,7 +20,7 @@
           </elementProp>
           <elementProp name="LOOP_NUM" elementType="Argument">
             <stringProp name="Argument.name">LOOP_NUM</stringProp>
-            <stringProp name="Argument.value">${__P(LOOP_NUM,100)}</stringProp>
+            <stringProp name="Argument.value">${__P(LOOP_NUM,1000)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="SEARCH_VALUE" elementType="Argument">
@@ -117,7 +117,7 @@
         </GaussianRandomTimer>
         <hashTree/>
         <com.blazemeter.jmeter.control.WeightedSwitchController guiclass="com.blazemeter.jmeter.control.WeightedSwitchControllerGui" testclass="com.blazemeter.jmeter.control.WeightedSwitchController" testname="Random Anonymous script" enabled="true">
-          <boolProp name="IsRandomChoice">true</boolProp>
+          <boolProp name="IsRandomChoice">false</boolProp>
           <collectionProp name="Weights">
             <collectionProp name="-1892534077">
               <stringProp name="-1955043590">Open Home Page</stringProp>
@@ -152,7 +152,10 @@
           </collectionProp>
         </com.blazemeter.jmeter.control.WeightedSwitchController>
         <hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Open Home Page" enabled="true"/>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="- Open Home Page" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">true</boolProp>
+          </TransactionController>
           <hashTree>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Open Home Page" enabled="true">
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
@@ -224,7 +227,10 @@
             </ModuleController>
             <hashTree/>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Open Random Date" enabled="true"/>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="- Open Random Date" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">true</boolProp>
+          </TransactionController>
           <hashTree>
             <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
               <stringProp name="delimiter">,</stringProp>
@@ -308,7 +314,10 @@
             </ModuleController>
             <hashTree/>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Open Predefined Date" enabled="true"/>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="- Open Predefined Date" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">true</boolProp>
+          </TransactionController>
           <hashTree>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Open Predefined Date" enabled="true">
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
@@ -380,7 +389,10 @@
             </ModuleController>
             <hashTree/>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Search by Name" enabled="true"/>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="- Search by Name" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">true</boolProp>
+          </TransactionController>
           <hashTree>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Search by Name" enabled="true">
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
@@ -451,7 +463,10 @@
             </ModuleController>
             <hashTree/>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Open Large Calendar" enabled="true"/>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="- Open Large Calendar" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">true</boolProp>
+          </TransactionController>
           <hashTree>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Open Large Calendar" enabled="true">
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
@@ -514,7 +529,10 @@
             </ModuleController>
             <hashTree/>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Open Contacts" enabled="true"/>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="- Open Contacts" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">true</boolProp>
+          </TransactionController>
           <hashTree>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Open Contacts" enabled="true">
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
@@ -563,7 +581,7 @@
           <com.blazemeter.jmeter.control.WeightedSwitchController guiclass="com.blazemeter.jmeter.control.WeightedSwitchControllerGui" testclass="com.blazemeter.jmeter.control.WeightedSwitchController" testname="Open Random page (yes/no)" enabled="true">
             <boolProp name="IsRandomChoice">true</boolProp>
             <collectionProp name="Weights">
-              <collectionProp name="817253448">
+              <collectionProp name="-942341796">
                 <stringProp name="-1322056938">Open Random Page</stringProp>
                 <stringProp name="1691">50</stringProp>
                 <stringProp name="3569038">true</stringProp>
@@ -632,7 +650,7 @@
           <com.blazemeter.jmeter.control.WeightedSwitchController guiclass="com.blazemeter.jmeter.control.WeightedSwitchControllerGui" testclass="com.blazemeter.jmeter.control.WeightedSwitchController" testname="Open post (yes/no)" enabled="true">
             <boolProp name="IsRandomChoice">true</boolProp>
             <collectionProp name="Weights">
-              <collectionProp name="330793885">
+              <collectionProp name="-1981120452">
                 <stringProp name="-665580632">Random or First (yes/no)</stringProp>
                 <stringProp name="1784">80</stringProp>
                 <stringProp name="3569038">true</stringProp>
@@ -643,12 +661,12 @@
             <com.blazemeter.jmeter.control.WeightedSwitchController guiclass="com.blazemeter.jmeter.control.WeightedSwitchControllerGui" testclass="com.blazemeter.jmeter.control.WeightedSwitchController" testname="Random or First (yes/no)" enabled="true">
               <boolProp name="IsRandomChoice">true</boolProp>
               <collectionProp name="Weights">
-                <collectionProp name="830555765">
+                <collectionProp name="1410100029">
                   <stringProp name="-1322043097">Open Random Post</stringProp>
                   <stringProp name="1727">65</stringProp>
                   <stringProp name="3569038">true</stringProp>
                 </collectionProp>
-                <collectionProp name="-1289027055">
+                <collectionProp name="-101324377">
                   <stringProp name="-99669050">Open First Post</stringProp>
                   <stringProp name="1634">35</stringProp>
                   <stringProp name="3569038">true</stringProp>
@@ -814,8 +832,61 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">~/task6result.csv</stringProp>
+        <stringProp name="filename">~/Results_Test_6_p${LOOP_NUM}.csv</stringProp>
       </ResultCollector>
+      <hashTree/>
+      <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener" enabled="true">
+        <elementProp name="arguments" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" enabled="true">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="influxdbMetricsSender" elementType="Argument">
+              <stringProp name="Argument.name">influxdbMetricsSender</stringProp>
+              <stringProp name="Argument.value">org.apache.jmeter.visualizers.backend.influxdb.HttpMetricsSender</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="influxdbUrl" elementType="Argument">
+              <stringProp name="Argument.name">influxdbUrl</stringProp>
+              <stringProp name="Argument.value">http://localhost:8086/write?db=jmeter</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="application" elementType="Argument">
+              <stringProp name="Argument.name">application</stringProp>
+              <stringProp name="Argument.value">Task 6</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="measurement" elementType="Argument">
+              <stringProp name="Argument.name">measurement</stringProp>
+              <stringProp name="Argument.value">jmeter</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="summaryOnly" elementType="Argument">
+              <stringProp name="Argument.name">summaryOnly</stringProp>
+              <stringProp name="Argument.value">false</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="samplersRegex" elementType="Argument">
+              <stringProp name="Argument.name">samplersRegex</stringProp>
+              <stringProp name="Argument.value">.*</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="percentiles" elementType="Argument">
+              <stringProp name="Argument.name">percentiles</stringProp>
+              <stringProp name="Argument.value">90;95;99</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="testTitle" elementType="Argument">
+              <stringProp name="Argument.name">testTitle</stringProp>
+              <stringProp name="Argument.value">Test name</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="eventTags" elementType="Argument">
+              <stringProp name="Argument.name">eventTags</stringProp>
+              <stringProp name="Argument.value"></stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </elementProp>
+        <stringProp name="classname">org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient</stringProp>
+      </BackendListener>
       <hashTree/>
     </hashTree>
   </hashTree>
