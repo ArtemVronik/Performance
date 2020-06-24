@@ -39,7 +39,7 @@
           </elementProp>
           <elementProp name="ADMIN_DURATION" elementType="Argument">
             <stringProp name="Argument.name">ADMIN_DURATION</stringProp>
-            <stringProp name="Argument.value">${__P(ADMIN_DURATION,3600)}</stringProp>
+            <stringProp name="Argument.value">${__P(ADMIN_DURATION,360)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="EDITOR_USERS_COUNT" elementType="Argument">
@@ -54,7 +54,7 @@
           </elementProp>
           <elementProp name="EDITOR_DURATION" elementType="Argument">
             <stringProp name="Argument.name">EDITOR_DURATION</stringProp>
-            <stringProp name="Argument.value">${__P(EDITOR_DURATION,3600)}</stringProp>
+            <stringProp name="Argument.value">${__P(EDITOR_DURATION,360)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="ANONYMOUS_USERS_COUNT" elementType="Argument">
@@ -69,7 +69,7 @@
           </elementProp>
           <elementProp name="ANONYMOUS_DURATION" elementType="Argument">
             <stringProp name="Argument.name">ANONYMOUS_DURATION</stringProp>
-            <stringProp name="Argument.value">${__P(ANONYMOUS_DURATION,3600)}</stringProp>
+            <stringProp name="Argument.value">${__P(ANONYMOUS_DURATION,360)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="POST_DATE" elementType="Argument">
@@ -1556,32 +1556,32 @@
           <com.blazemeter.jmeter.control.WeightedSwitchController guiclass="com.blazemeter.jmeter.control.WeightedSwitchControllerGui" testclass="com.blazemeter.jmeter.control.WeightedSwitchController" testname="Random Anonymous script" enabled="true">
             <boolProp name="IsRandomChoice">true</boolProp>
             <collectionProp name="Weights">
-              <collectionProp name="-1892534077">
+              <collectionProp name="262191963">
                 <stringProp name="-1955043590">Open Home Page</stringProp>
                 <stringProp name="1572">15</stringProp>
                 <stringProp name="3569038">true</stringProp>
               </collectionProp>
-              <collectionProp name="474087075">
+              <collectionProp name="-1682604508">
                 <stringProp name="-1322414027">Open Random Date</stringProp>
                 <stringProp name="1567">10</stringProp>
                 <stringProp name="3569038">true</stringProp>
               </collectionProp>
-              <collectionProp name="236594818">
+              <collectionProp name="695017827">
                 <stringProp name="-1269029934">Open Predefined Date</stringProp>
                 <stringProp name="1629">30</stringProp>
                 <stringProp name="3569038">true</stringProp>
               </collectionProp>
-              <collectionProp name="1682675372">
+              <collectionProp name="1645283265">
                 <stringProp name="1302304380">Search by Name</stringProp>
                 <stringProp name="1629">30</stringProp>
                 <stringProp name="3569038">true</stringProp>
               </collectionProp>
-              <collectionProp name="-1353397081">
+              <collectionProp name="-1324502417">
                 <stringProp name="400822073">Open Large Calendar</stringProp>
                 <stringProp name="1567">10</stringProp>
                 <stringProp name="3569038">true</stringProp>
               </collectionProp>
-              <collectionProp name="263871361">
+              <collectionProp name="-330580903">
                 <stringProp name="411443561">Open Contacts</stringProp>
                 <stringProp name="53">5</stringProp>
                 <stringProp name="3569038">true</stringProp>
@@ -2412,7 +2412,7 @@ vars.put(&apos;UserDelete&apos;,userDelete)</stringProp>
             </elementProp>
             <elementProp name="application" elementType="Argument">
               <stringProp name="Argument.name">application</stringProp>
-              <stringProp name="Argument.value">Task 9</stringProp>
+              <stringProp name="Argument.value">Task 10</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="measurement" elementType="Argument">
