@@ -39,7 +39,7 @@
           </elementProp>
           <elementProp name="ADMIN_DURATION" elementType="Argument">
             <stringProp name="Argument.name">ADMIN_DURATION</stringProp>
-            <stringProp name="Argument.value">${__P(ADMIN_DURATION,360)}</stringProp>
+            <stringProp name="Argument.value">${__P(ADMIN_DURATION,3600)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="EDITOR_USERS_COUNT" elementType="Argument">
@@ -54,7 +54,7 @@
           </elementProp>
           <elementProp name="EDITOR_DURATION" elementType="Argument">
             <stringProp name="Argument.name">EDITOR_DURATION</stringProp>
-            <stringProp name="Argument.value">${__P(EDITOR_DURATION,360)}</stringProp>
+            <stringProp name="Argument.value">${__P(EDITOR_DURATION,3600)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="ANONYMOUS_USERS_COUNT" elementType="Argument">
@@ -69,7 +69,7 @@
           </elementProp>
           <elementProp name="ANONYMOUS_DURATION" elementType="Argument">
             <stringProp name="Argument.name">ANONYMOUS_DURATION</stringProp>
-            <stringProp name="Argument.value">${__P(ANONYMOUS_DURATION,360)}</stringProp>
+            <stringProp name="Argument.value">${__P(ANONYMOUS_DURATION,3600)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="POST_DATE" elementType="Argument">
