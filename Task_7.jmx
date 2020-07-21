@@ -39,12 +39,12 @@
           </elementProp>
           <elementProp name="ADMIN_RAMP_UP" elementType="Argument">
             <stringProp name="Argument.name">ADMIN_RAMP_UP</stringProp>
-            <stringProp name="Argument.value">${__P(ADMIN_RAMP_UP,10)}</stringProp>
+            <stringProp name="Argument.value">${__P(ADMIN_RAMP_UP,50)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="ADMIN_LOOP_COUNT" elementType="Argument">
             <stringProp name="Argument.name">ADMIN_LOOP_COUNT</stringProp>
-            <stringProp name="Argument.value">${__P(ADMIN_LOOP_COUNT,1)}</stringProp>
+            <stringProp name="Argument.value">${__P(ADMIN_LOOP_COUNT,10)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="EDITOR_USERS_COUNT" elementType="Argument">
@@ -54,12 +54,12 @@
           </elementProp>
           <elementProp name="EDITOR_RAMP_UP" elementType="Argument">
             <stringProp name="Argument.name">EDITOR_RAMP_UP</stringProp>
-            <stringProp name="Argument.value">${__P(EDITOR_RAMP_UP,10)}</stringProp>
+            <stringProp name="Argument.value">${__P(EDITOR_RAMP_UP,50)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="EDITOR_LOOP_COUNT" elementType="Argument">
             <stringProp name="Argument.name">EDITOR_LOOP_COUNT</stringProp>
-            <stringProp name="Argument.value">${__P(EDITOR_LOOP_COUNT,1)}</stringProp>
+            <stringProp name="Argument.value">${__P(EDITOR_LOOP_COUNT,10)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="ANONYMOUS_USERS_COUNT" elementType="Argument">
@@ -69,12 +69,12 @@
           </elementProp>
           <elementProp name="ANONYMOUS_RAMP_UP" elementType="Argument">
             <stringProp name="Argument.name">ANONYMOUS_RAMP_UP</stringProp>
-            <stringProp name="Argument.value">${__P(ANONYMOUS_RAMP_UP,10)}</stringProp>
+            <stringProp name="Argument.value">${__P(ANONYMOUS_RAMP_UP,50)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="ANONYMOUS_LOOP_COUNT" elementType="Argument">
             <stringProp name="Argument.name">ANONYMOUS_LOOP_COUNT</stringProp>
-            <stringProp name="Argument.value">${__P(ANONYMOUS_LOOP_COUNT,1)}</stringProp>
+            <stringProp name="Argument.value">${__P(ANONYMOUS_LOOP_COUNT,10)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="POST_DATE" elementType="Argument">
@@ -1547,32 +1547,32 @@
           <com.blazemeter.jmeter.control.WeightedSwitchController guiclass="com.blazemeter.jmeter.control.WeightedSwitchControllerGui" testclass="com.blazemeter.jmeter.control.WeightedSwitchController" testname="Random Anonymous script" enabled="true">
             <boolProp name="IsRandomChoice">false</boolProp>
             <collectionProp name="Weights">
-              <collectionProp name="-1892534077">
+              <collectionProp name="262191963">
                 <stringProp name="-1955043590">Open Home Page</stringProp>
                 <stringProp name="1572">15</stringProp>
                 <stringProp name="3569038">true</stringProp>
               </collectionProp>
-              <collectionProp name="474087075">
+              <collectionProp name="-1682604508">
                 <stringProp name="-1322414027">Open Random Date</stringProp>
                 <stringProp name="1567">10</stringProp>
                 <stringProp name="3569038">true</stringProp>
               </collectionProp>
-              <collectionProp name="236594818">
+              <collectionProp name="695017827">
                 <stringProp name="-1269029934">Open Predefined Date</stringProp>
                 <stringProp name="1629">30</stringProp>
                 <stringProp name="3569038">true</stringProp>
               </collectionProp>
-              <collectionProp name="1682675372">
+              <collectionProp name="1645283265">
                 <stringProp name="1302304380">Search by Name</stringProp>
                 <stringProp name="1629">30</stringProp>
                 <stringProp name="3569038">true</stringProp>
               </collectionProp>
-              <collectionProp name="-1353397081">
+              <collectionProp name="-1324502417">
                 <stringProp name="400822073">Open Large Calendar</stringProp>
                 <stringProp name="1567">10</stringProp>
                 <stringProp name="3569038">true</stringProp>
               </collectionProp>
-              <collectionProp name="263871361">
+              <collectionProp name="-330580903">
                 <stringProp name="411443561">Open Contacts</stringProp>
                 <stringProp name="53">5</stringProp>
                 <stringProp name="3569038">true</stringProp>
@@ -1982,7 +1982,7 @@
         </hashTree>
       </hashTree>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
-        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <boolProp name="ResultCollector.error_logging">true</boolProp>
         <objProp>
           <name>saveConfig</name>
           <value class="SampleSaveConfiguration">
@@ -2388,6 +2388,59 @@ vars.put(&apos;UserDelete&apos;,userDelete)</stringProp>
           <hashTree/>
         </hashTree>
       </hashTree>
+      <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener" enabled="true">
+        <elementProp name="arguments" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" enabled="true">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="influxdbMetricsSender" elementType="Argument">
+              <stringProp name="Argument.name">influxdbMetricsSender</stringProp>
+              <stringProp name="Argument.value">org.apache.jmeter.visualizers.backend.influxdb.HttpMetricsSender</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="influxdbUrl" elementType="Argument">
+              <stringProp name="Argument.name">influxdbUrl</stringProp>
+              <stringProp name="Argument.value">http://localhost:8086/write?db=jmeter</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="application" elementType="Argument">
+              <stringProp name="Argument.name">application</stringProp>
+              <stringProp name="Argument.value">Task 7</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="measurement" elementType="Argument">
+              <stringProp name="Argument.name">measurement</stringProp>
+              <stringProp name="Argument.value">jmeter</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="summaryOnly" elementType="Argument">
+              <stringProp name="Argument.name">summaryOnly</stringProp>
+              <stringProp name="Argument.value">false</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="samplersRegex" elementType="Argument">
+              <stringProp name="Argument.name">samplersRegex</stringProp>
+              <stringProp name="Argument.value">.*</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="percentiles" elementType="Argument">
+              <stringProp name="Argument.name">percentiles</stringProp>
+              <stringProp name="Argument.value">90;95;99</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="testTitle" elementType="Argument">
+              <stringProp name="Argument.name">testTitle</stringProp>
+              <stringProp name="Argument.value">Test name</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="eventTags" elementType="Argument">
+              <stringProp name="Argument.name">eventTags</stringProp>
+              <stringProp name="Argument.value"></stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </elementProp>
+        <stringProp name="classname">org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient</stringProp>
+      </BackendListener>
+      <hashTree/>
     </hashTree>
   </hashTree>
 </jmeterTestPlan>
